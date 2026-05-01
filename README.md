@@ -151,6 +151,26 @@ QSO record fields: `callsign`, `band`, `mode`, `qth`, `locator`, `rst_tx`, `rst_
 
 ---
 
+## Languages
+
+| Code | Language | Code | Language |
+|------|----------|------|----------|
+| `cs` | Čeština | `en` | English |
+| `de` | Deutsch | `fr` | Français |
+| `es` | Español | `it` | Italiano |
+| `pt` | Português | `nl` | Nederlands |
+| `sv` | Svenska | `no` | Norsk |
+| `da` | Dansk | `pl` | Polski |
+| `hu` | Magyar | `sk` | Slovenčina |
+| `ru` | Русский | `uk` | Українська |
+| `tr` | Türkçe | `id` | Bahasa Indonesia |
+| `ja` | 日本語 | `ko` | 한국어 |
+
+All 20 languages are **fully translated** including the help/manual section.  
+To add a new language: create `lang/XX.php` based on `lang/en.php` and add `'XX'` to `VALID_LANGS` in `assets/inc/lang.php`.
+
+---
+
 ## Security Notes
 
 - `config/settings.php` and `config/installed.lock` are in `.gitignore` - credentials are never committed to the repository.
