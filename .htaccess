@@ -1,0 +1,25 @@
+Options -Indexes
+RewriteEngine On
+
+# Custom error pages
+ErrorDocument 400 /assets/errors/400.php
+ErrorDocument 403 /assets/errors/403.php
+ErrorDocument 404 /assets/errors/404.php
+ErrorDocument 500 /assets/errors/500.php
+
+# Explicit rewrites for URLs that share a name with a directory
+# (must come before the !-d condition)
+RewriteRule ^config/?$      config.php      [L,QSA]
+RewriteRule ^setup/?$       setup.php       [L,QSA]
+
+# Don't rewrite real files/directories
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+# Clean URL rewrites
+RewriteRule ^$              index.php       [L]
+RewriteRule ^index$         index.php       [L,QSA]
+RewriteRule ^logbook$       logbook.php     [L,QSA]
+RewriteRule ^help$          help.php        [L,QSA]
+RewriteRule ^login$         login.php       [L,QSA]
+RewriteRule ^logout$        logout.php      [L,QSA]
