@@ -11,7 +11,7 @@ $lang  = getCurrentLang();
 $role  = getCurrentRole();
 
 $title = ($page_title ?? 'JOTA-JOTI Logbook') . ' | JOTA-JOTI';
-$allLangs = ['en','de','nl','sv','no','da','fr','es','pt','it','cs','sk','pl','ru','uk','tr','id','ja','ko'];
+$allLangs = ['en','de','nl','sv','no','da','fr','es','pt','it','cs','sk','pl','hu','ru','uk','tr','id','ja','ko'];
 ?><!DOCTYPE html>
 <html lang="<?= h($lang) ?>" data-bs-theme="<?= h($theme) ?>" data-theme="<?= h($theme) ?>">
 <head>

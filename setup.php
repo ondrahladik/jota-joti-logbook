@@ -21,7 +21,7 @@ if (session_status() === PHP_SESSION_NONE) {
 }
 
 // Language selection
-$validLangs = ['en','de','nl','sv','no','da','fr','es','pt','it','cs','sk','pl','ru','uk','tr','id','ja','ko'];
+$validLangs = ['en','de','nl','sv','no','da','fr','es','pt','it','cs','sk','pl','hu','ru','uk','tr','id','ja','ko'];
 if (isset($_GET['setup_lang']) && in_array($_GET['setup_lang'], $validLangs, true)) {
     $_SESSION['setup_lang'] = $_GET['setup_lang'];
     $step = (int)($_GET['step'] ?? 1);
@@ -172,15 +172,15 @@ $langNativeNames = [
     'sv' => 'Svenska',        'no' => 'Norsk',            'da' => 'Dansk',
     'fr' => 'Français',       'es' => 'Español',          'pt' => 'Português',
     'it' => 'Italiano',       'cs' => 'Čeština',          'sk' => 'Slovenčina',
-    'pl' => 'Polski',         'ru' => 'Русский',          'uk' => 'Українська',
-    'tr' => 'Türkçe',         'id' => 'Bahasa Indonesia', 'ja' => '日本語',
-    'ko' => '한국어',
+    'pl' => 'Polski',         'hu' => 'Magyar',           'ru' => 'Русский',
+    'uk' => 'Українська',     'tr' => 'Türkçe',         'id' => 'Bahasa Indonesia', 
+    'ja' => '日本語',          'ko' => '한국어',         
 ];
 $langShortNames = [
     'en' => 'EN', 'de' => 'DE', 'nl' => 'NL', 'sv' => 'SV', 'no' => 'NO',
     'da' => 'DA', 'fr' => 'FR', 'es' => 'ES', 'pt' => 'PT', 'it' => 'IT',
-    'cs' => 'CS', 'sk' => 'SK', 'pl' => 'PL', 'ru' => 'RU', 'uk' => 'UK',
-    'tr' => 'TR', 'id' => 'ID', 'ja' => 'JA', 'ko' => 'KO',
+    'cs' => 'CS', 'sk' => 'SK', 'pl' => 'PL', 'hu' => 'HU', 'ru' => 'RU', 
+    'uk' => 'UK', 'tr' => 'TR', 'id' => 'ID', 'ja' => 'JA', 'ko' => 'KO', 
 ];
 ?>
 <!DOCTYPE html>
