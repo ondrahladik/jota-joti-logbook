@@ -124,7 +124,7 @@ require_once 'assets/inc/header.php';
                                 <td class="text-jj-muted small"><?= h(__('help.fields.mode')) ?></td>
                             </tr>
                             <tr>
-                                <td><strong><?= h(__('qso.band')) ?></strong></td>
+                                <td><strong class="text-gold"><?= h(__('qso.band')) ?></strong></td>
                                 <td><span class="badge bg-danger"><?= h(__('help.fields.yes')) ?></span></td>
                                 <td class="text-jj-muted small"><?= h(__('help.fields.band')) ?></td>
                             </tr>
