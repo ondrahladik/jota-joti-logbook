@@ -185,4 +185,3 @@ To add a new language: create `lang/XX.php` based on `lang/en.php` and add `'XX'
 
 - [JOTA-JOTI official website](https://www.jotajoti.info)
 - [World Scout Bureau](https://www.scout.org)
-- [Project on GitHub](https://github.com/ondrahladik/jota-joti-logbook)
