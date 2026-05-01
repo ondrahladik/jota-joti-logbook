@@ -1,7 +1,7 @@
 <?php
 $_errLang  = $_COOKIE['jj_lang']  ?? 'en';
 $_errTheme = $_COOKIE['jj_theme'] ?? 'dark';
-$_validL   = ['en','de','nl','sv','no','da','fr','es','pt','it','cs','sk','pl','ru','uk','tr','id','ja','ko'];
+$_validL   = ['en','de','nl','sv','no','da','fr','es','pt','it','cs','sk','pl','ru','uk','tr','id','ja','ko','hu'];
 if (!in_array($_errLang, $_validL, true)) $_errLang = 'en';
 
 $_errI18n = [
@@ -308,6 +308,22 @@ $_errI18n = [
         'php.desc'  => 'PHP 오류가 발생했습니다. 서버 로그를 확인하세요.',
         'btn.home'   => '홈', 'btn.login' => '로그인',
         'btn.logbook'=> 'Logbook', 'btn.config' => '설정 열기',
+    ],
+    'hu' => [
+        '400.title' => 'Hibás kérés',
+        '400.desc'  => 'A szerver nem tudta értelmezni a kérést.',
+        '403.title' => 'Hozzáférés megtagadva',
+        '403.desc'  => 'Nincs jogosultsága az oldal megtekintéséhez.',
+        '404.title' => 'Az oldal nem található',
+        '404.desc'  => 'A keresett oldal nem létezik vagy át lett helyezve.',
+        '500.title' => 'Belső szerverhiba',
+        '500.desc'  => 'Valami hiba történt a szerveren. Kérjük, próbálja meg később.',
+        'db.title'  => 'Adatbázis-kapcsolati hiba',
+        'db.desc'   => 'Az alkalmazás nem tud csatlakozni az adatbázishoz. Ellenőrizze a beállításokat.',
+        'php.title' => 'Alkalmazáshiba',
+        'php.desc'  => 'PHP-hiba történt. Ellenőrizze a szerver naplókat.',
+        'btn.home'   => 'Főoldal', 'btn.login' => 'Bejelentkezés',
+        'btn.logbook'=> 'Naplókönyv', 'btn.config' => 'Konfiguráció megnyitása',
     ],
 ];
 
