@@ -2,7 +2,6 @@
 
 Open-source web application for amateur radio clubs participating in the annual **JOTA-JOTI** (Jamboree on the Air / Jamboree on the Internet) event organized by the World Scout Bureau.
 
-![Version](https://img.shields.io/badge/version-2.1.0-blue)
 ![PHP](https://img.shields.io/badge/PHP-8.1%2B-777BB4)
 ![License](https://img.shields.io/badge/license-MIT-green)
 ![Languages](https://img.shields.io/badge/languages-20-orange)
