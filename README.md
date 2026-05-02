@@ -119,9 +119,8 @@ QSO record fields: `callsign`, `band`, `mode`, `qth`, `locator`, `rst_tx`, `rst_
 │   ├── settings.example.php   # Example / template for manual configuration
 │   └── settings.php           # Active config (gitignored)
 ├── lang/                      # Translation files (one per language)
-│   ├── en.php cs.php de.php sk.php fr.php es.php it.php pt.php
-│   ├── pl.php ru.php uk.php tr.php id.php nl.php sv.php no.php
-│   ├── da.php ja.php ko.php hu.php
+│   ├── cs.php da.php de.php en.php es.php fr.php hu.php id.php it.php ja.php
+│   ├── ko.php nl.php no.php pl.php pt.php ru.php sk.php sv.php tr.php uk.php
 ├── index.php                  # Dashboard (QSO total, logbook list)
 ├── logbook.php                # QSO logbook (add/edit/delete/export)
 ├── help.php                   # Help / manual
@@ -138,16 +137,16 @@ QSO record fields: `callsign`, `band`, `mode`, `qth`, `locator`, `rst_tx`, `rst_
 
 | Code | Language | Code | Language |
 |------|----------|------|----------|
-| `cs` | Čeština | `en` | English |
-| `de` | Deutsch | `fr` | Français |
-| `es` | Español | `it` | Italiano |
-| `pt` | Português | `nl` | Nederlands |
-| `sv` | Svenska | `no` | Norsk |
-| `da` | Dansk | `pl` | Polski |
+| `cs` | Čeština | `ko` | 한국어 |
+| `da` | Dansk |`nl` | Nederlands |
+| `de` | Deutsch | `no` | Norsk |
+| `en` | English | `pl` | Polski |
+| `es` | Español | `pt` | Português |
+| `fr` | Français | `ru` | Русский |
 | `hu` | Magyar | `sk` | Slovenčina |
-| `ru` | Русский | `uk` | Українська |
-| `tr` | Türkçe | `id` | Bahasa Indonesia |
-| `ja` | 日本語 | `ko` | 한국어 |
+| `id` | Bahasa Indonesia | `sv` | Svenska |
+| `it` | Italiano | `tr` | Türkçe |
+| `ja` | 日本語 | `uk` | Українська |
 
 All 20 languages are **fully translated** including the help/manual section.  
 To add a new language: create `lang/XX.php` based on `lang/en.php` and add `'XX'` to `VALID_LANGS` in `assets/inc/lang.php`.
