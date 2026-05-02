@@ -26,9 +26,9 @@ return [
     // Hero
     'hero.title'    => 'JOTA-JOTI Loggbok',
     'hero.subtitle' => '',
+    'hero.logbooks'     => 'Loggböcker',
     'hero.total_qso' => 'Totalt QSO / kontakter',
     // Stats
-    'stat.logbooks'     => 'Loggböcker',
     'stat.callsign'     => 'Anropssignal',
     'stat.total_qso'    => 'Totalt QSO',
     'stat.unique_calls' => 'Unika anrop',

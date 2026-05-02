@@ -25,9 +25,9 @@ return [
     // Hero
     'hero.title'    => 'JOTA-JOTI Logbuch',
     'hero.subtitle' => '',
+    'hero.logbooks'     => 'Logbucher',
     'hero.total_qso' => 'Gesamt QSO / Verbindungen',
     // Stats
-    'stat.logbooks'     => 'Logbucher',
     'stat.callsign'     => 'Rufzeichen',
     'stat.total_qso'    => 'Gesamt QSO',
     'stat.unique_calls' => 'Eindeutige Rufzeichen',

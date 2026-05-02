@@ -26,9 +26,9 @@ return [
     // Hero
     'hero.title'    => 'JOTA-JOTI 로그북',
     'hero.subtitle' => '',
+    'hero.logbooks'     => '로그북',
     'hero.total_qso' => '총 QSO / 교신 수',
     // Stats
-    'stat.logbooks'     => '로그북',
     'stat.callsign'     => '콜사인',
     'stat.total_qso'    => '총 QSO',
     'stat.unique_calls' => '고유 콜',

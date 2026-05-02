@@ -25,9 +25,9 @@ return [
     // Hero
     'hero.title'    => 'JOTA-JOTI Logbook',
     'hero.subtitle' => '',
+    'hero.logbooks'     => 'Logbooky',
     'hero.total_qso' => 'Celkem QSO / spojení',
     // Stats
-    'stat.logbooks'     => 'Logbooky',
     'stat.callsign'     => 'Volací značka',
     'stat.total_qso'    => 'Celkem QSO',
     'stat.unique_calls' => 'Unikátní značky',

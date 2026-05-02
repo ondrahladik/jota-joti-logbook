@@ -25,9 +25,9 @@ return [
     // Hero
     'hero.title'    => 'JOTA-JOTI Naplókönyv',
     'hero.subtitle' => '',
+    'hero.logbooks'     => 'Naplókönyvek',
     'hero.total_qso' => 'Összes QSO / összeköttetés',
     // Stats
-    'stat.logbooks'     => 'Naplókönyvek',
     'stat.callsign'     => 'Hívójel',
     'stat.total_qso'    => 'Összes QSO',
     'stat.unique_calls' => 'Egyedi hívójelek',
