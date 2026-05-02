@@ -22,6 +22,7 @@ return [
     'hero.subtitle' => '',
     'hero.logbooks' => 'Carnets de bord',
     'hero.total_qso' => 'Total QSO / contacts',
+    'stat.callsign'     => 'Indicatif',
     'stat.total_qso'    => 'Total QSO',
     'stat.unique_calls' => 'Indicatifs uniques',
     'stat.countries'    => 'Pays',

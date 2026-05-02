@@ -22,6 +22,7 @@ return [
     'hero.subtitle' => '',
     'hero.logbooks'     => 'Buku catatan',
     'hero.total_qso' => 'Total QSO / kontak',
+    'stat.callsign'     => 'Tanda panggil',
     'stat.total_qso'    => 'Total QSO',
     'stat.unique_calls' => 'Tanda panggil unik',
     'stat.countries'    => 'Negara',

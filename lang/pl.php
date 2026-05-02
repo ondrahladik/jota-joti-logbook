@@ -22,6 +22,7 @@ return [
     'hero.subtitle' => '',
     'hero.logbooks'     => 'Dzienniki',
     'hero.total_qso' => 'Łącznie QSO / łączności',
+    'stat.callsign'     => 'Znak wywoławczy',
     'stat.total_qso'    => 'Łącznie QSO',
     'stat.unique_calls' => 'Unikalne znaki',
     'stat.countries'    => 'Kraje',

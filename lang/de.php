@@ -28,6 +28,7 @@ return [
     'hero.logbooks'     => 'Logbucher',
     'hero.total_qso' => 'Gesamt QSO / Verbindungen',
     // Stats
+    'stat.callsign'     => 'Rufzeichen',
     'stat.total_qso'    => 'Gesamt QSO',
     'stat.unique_calls' => 'Eindeutige Rufzeichen',
     'stat.countries'    => 'Lander',

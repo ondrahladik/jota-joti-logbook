@@ -29,6 +29,7 @@ return [
     'hero.logbooks'     => 'Loggböcker',
     'hero.total_qso' => 'Totalt QSO / kontakter',
     // Stats
+    'stat.callsign'     => 'Anropssignal',
     'stat.total_qso'    => 'Totalt QSO',
     'stat.unique_calls' => 'Unika anrop',
     'stat.countries'    => 'Länder',
