@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 if (!defined('JOTAJOTI_LOADED')) die('Direct access not allowed.');
 return [
     'nav.home'      => 'Ana sayfa',
@@ -7,11 +7,14 @@ return [
     'nav.login'     => 'Giriş',
     'nav.logout'    => 'Çıkış',
     'nav.config'    => 'Yapılandırma',
+    // Roles and access levels
     'role.guest'    => 'Ziyaretçi',
     'role.user'     => 'Kullanıcı',
     'role.admin'    => 'Yönetici',
+    // Application metadata
     'app.tagline'   => 'JOTA - JOTI',
     'app.description' => 'Yıllık JOTA-JOTI etkinliği sırasında kişileri yönetmek için web uygulaması.',
+    // Page titles and breadcrumbs
     'page.home'     => 'Ana sayfa',
     'page.logbook'  => 'Günlük',
     'page.help'     => 'Yardım',
@@ -23,10 +26,12 @@ return [
     'hero.callsign'     => 'Çağrı işareti',
     'hero.logbooks'     => 'Günlükler',
     'hero.total_qso' => 'Toplam QSO / kişi',
+    // Statistics labels
     'stat.total_qso'    => 'Toplam QSO',
     'stat.unique_calls' => 'Benzersiz çağrılar',
     'stat.countries'    => 'Ülkeler',
     'stat.top_modes'    => 'Modlar (ilk 3)',
+    // Action buttons and user interactions
     'action.open'         => 'Aç',
     'action.new_logbook'  => 'Yeni günlük',
     'action.all_logbooks' => 'Tüm günlükler',
@@ -85,21 +90,26 @@ return [
     'qso.search'      => 'Ara...',
     'qso.no_records'  => 'Kayıt yok.',
     'qso.visible_count' => 'Gösterilen: %n% kayıt',
+    // Form labels and field descriptions
     'form.new_logbook_title'    => 'Yeni günlük',
     'form.new_logbook_year'     => 'Yıl',
     'form.new_logbook_callsign' => 'Çağrı işareti',
     'form.new_logbook_notes'    => 'Günlük notları',
+    // Field names and descriptions
     'field.required_note'       => '* zorunlu alanlar',
+    // Table headers and display labels
     'table.logbook_year'     => 'Yıl / Etkinlik',
     'table.logbook_callsign' => 'Çağrı işareti',
     'table.logbook_qso'      => 'QSO',
     'table.logbook_created'  => 'Oluşturuldu',
     'table.logbook_actions'  => 'İşlemler',
+    // About JOTA-JOTI and event information
     'about.jota'      => 'Jamboree on the Air',
     'about.joti'      => 'Jamboree on the Internet',
     'about.jota_desc' => 'Amatör telsiz aracılığıyla izci buluşması. Dünyanın dört bir yanından izciler kısa dalga üzerinde iletişim kurar.',
     'about.joti_desc' => 'İnternet üzerinden izci buluşması. Zoom, Teams, Discord, IRC, EchoLink ve diğerleri gibi platformlar aracılığıyla iletişim.',
     'about.date_info' => 'JOTA-JOTI, her yıl Ekim\'in 3. haftasında gerçekleşir. Milyonlarca katılımcıyla dünyanın en büyük izci etkinliği.',
+    // Help and documentation
     'help.title'    => 'Yardım',
     'help.toc'      => 'Yardım içeriği',
     'help.section1' => 'JOTA-JOTI nedir?',
@@ -185,9 +195,11 @@ return [
     'setup.welcome_desc'        => 'İlk kullanımdan önce uygulamanın yapılandırılması gerekir.',
     'setup.complete'            => 'Kurulum tamamlandı!',
     'setup.go_to_app'           => 'Uygulamaya git',
+    // Theme and appearance settings
     'theme.light'  => 'Açık',
     'theme.dark'   => 'Koyu',
     'theme.toggle' => 'Temayı değiştir',
+    // Language display names
     'lang.en' => 'English',
     'lang.cs' => 'Čeština',
     'lang.sk' => 'Slovenština',
@@ -201,10 +213,13 @@ return [
     'lang.uk' => 'Українська',
     'lang.tr' => 'Türkçe',
     'lang.id' => 'Bahasa Indonesia',
+    // Footer content and links
     'footer.version'     => 'sürüm',
     'footer.world_scout' => 'Dünya İzcilik Bürosu',
+    // JOTA/JOTI event names and titles
     'jota.title' => 'Jamboree on the Air',
     'joti.title' => 'Jamboree on the Internet',
+    // Language display names
     'lang.nl' => 'Felemenkçe',
     'lang.sv' => 'İsveççe',
     'lang.no' => 'Norveçce',
@@ -213,13 +228,15 @@ return [
     'lang.ko' => 'Korece',
     'nav.official_site' => 'Resmi web sitesi',
     'login.logged_out'     => 'Çıkış yaptınız.',
-    // Placeholders
+    // Form input placeholders
+    // Form input placeholders
     'placeholder.callsign' => 'TA1ABC',
     'placeholder.name'     => 'Ahmet Yılmaz',
     'placeholder.qth'      => 'Ankara',
     'placeholder.locator'  => 'KN41TA',
     'placeholder.note'     => 'İyi sinyal!',
 
+    // Help and documentation
     'help.section9' => 'Kullanıcı rolleri',
     'help.jota.desc' => 'Amatör radyo üzerinden izci buluşması. Dünyanın dört bir yanından izcilik üyeleri, SSB, CW, FT8 ve diğer dijital modlar kullanarak kısa dalga bantlarında iletişim kurar.',
     'help.joti.desc' => 'İnternet üzerinden izci buluşması. İletişim Zoom, Teams, Discord, IRC, EchoLink, DMR ve diğer dijital ağlar gibi platformlar aracılığıyla yapılır.',
@@ -276,5 +293,6 @@ return [
     'help.roles.user.desc' => 'Mevcut yılda QSO ekleyebilir ve düzenleyebilir. Yapılandırmaya veya önceki yılların günlüklerine erişimi yoktur.',
     'help.roles.admin.title' => 'Yönetici',
     'help.roles.admin.desc' => 'Tam erişim - günlük oluşturma ve silme, önceki yılların QSOlarını düzenleme ve uygulama yapılandırması.',
+    // Language display names
     'lang.hu' => 'Macarca',
 ];

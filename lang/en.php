@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 if (!defined('JOTAJOTI_LOADED')) die('Direct access not allowed.');
 return [
     // Navigation
@@ -8,14 +8,14 @@ return [
     'nav.login'     => 'Login',
     'nav.logout'    => 'Logout',
     'nav.config'    => 'Configuration',
-    // Roles
+    // Roles and access levels
     'role.guest'    => 'Visitor',
     'role.user'     => 'User',
     'role.admin'    => 'Administrator',
-    // App
+    // Application metadata
     'app.tagline'   => 'JOTA - JOTI',
     'app.description' => 'Web application for managing contacts during the annual JOTA-JOTI.',
-    // Pages
+    // Page titles and breadcrumbs
     'page.home'     => 'Home',
     'page.logbook'  => 'Logbook',
     'page.help'     => 'Help',
@@ -28,12 +28,12 @@ return [
     'hero.callsign'     => 'Callsign',
     'hero.logbooks'     => 'Logbooks',
     'hero.total_qso' => 'Total QSO / contacts',
-    // Stats
+    // Statistics labels
     'stat.total_qso'    => 'Total QSO',
     'stat.unique_calls' => 'Unique calls',
     'stat.countries'    => 'Countries',
     'stat.top_modes'    => 'Modes (top 3)',
-    // Actions
+    // Action buttons and user interactions
     'action.open'         => 'Open',
     'action.new_logbook'  => 'New logbook',
     'action.all_logbooks' => 'All logbooks',
@@ -94,19 +94,19 @@ return [
     'qso.search'      => 'Search...',
     'qso.no_records'  => 'No records.',
     'qso.visible_count' => 'Showing: %n% records',
-    // Form
+    // Form labels and field descriptions
     'form.new_logbook_title'    => 'New logbook',
     'form.new_logbook_year'     => 'Year',
     'form.new_logbook_callsign' => 'Callsign',
     'form.new_logbook_notes'    => 'Logbook notes',
     'field.required_note'       => '* required fields',
-    // Table
+    // Table headers and display labels
     'table.logbook_year'     => 'Year / Event',
     'table.logbook_callsign' => 'Callsign',
     'table.logbook_qso'      => 'QSO',
     'table.logbook_created'  => 'Created',
     'table.logbook_actions'  => 'Actions',
-    // About
+    // About JOTA-JOTI and event information
     'about.jota'      => 'Jamboree on the Air',
     'about.joti'      => 'Jamboree on the Internet',
     'about.jota_desc' => 'Scout meeting via amateur radio. Scouts from around the world communicate on shortwave.',
@@ -201,11 +201,11 @@ return [
     'setup.welcome_desc'        => 'Before first use, the application needs to be configured. This wizard will guide you through the setup.',
     'setup.complete'            => 'Setup complete!',
     'setup.go_to_app'           => 'Go to application',
-    // Theme
+    // Theme and appearance settings
     'theme.light'  => 'Light',
     'theme.dark'   => 'Dark',
     'theme.toggle' => 'Toggle theme',
-    // Languages
+    // Language display names
     'lang.en' => 'English',
     'lang.cs' => 'Čeština',
     'lang.sk' => 'Slovenština',
@@ -219,10 +219,10 @@ return [
     'lang.uk' => 'Українська',
     'lang.tr' => 'Türkçe',
     'lang.id' => 'Bahasa Indonesia',
-    // Footer
+    // Footer content and links
     'footer.version'     => 'version',
     'footer.world_scout' => 'World Scout Bureau',
-    // JOTA/JOTI titles
+    // JOTA/JOTI event names and titles
     'jota.title' => 'Jamboree on the Air',
     'joti.title' => 'Jamboree on the Internet',
     'lang.nl' => 'Dutch',
@@ -233,7 +233,7 @@ return [
     'lang.ko' => 'Korean',
     'nav.official_site' => 'Official website',
     'login.logged_out'     => 'You have been logged out.',
-    // Placeholders
+    // Form input placeholders
     'placeholder.callsign' => 'G3ABC',
     'placeholder.name'     => 'John Smith',
     'placeholder.qth'      => 'London',

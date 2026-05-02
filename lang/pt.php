@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 if (!defined('JOTAJOTI_LOADED')) die('Direct access not allowed.');
 return [
     'nav.home'      => 'Início',
@@ -7,11 +7,14 @@ return [
     'nav.login'     => 'Entrar',
     'nav.logout'    => 'Sair',
     'nav.config'    => 'Configuração',
+    // Roles and access levels
     'role.guest'    => 'Visitante',
     'role.user'     => 'Utilizador',
     'role.admin'    => 'Administrador',
+    // Application metadata
     'app.tagline'   => 'JOTA - JOTI',
     'app.description' => 'Aplicação web para gerir contactos durante o JOTA-JOTI anual.',
+    // Page titles and breadcrumbs
     'page.home'     => 'Início',
     'page.logbook'  => 'Diário de bordo',
     'page.help'     => 'Ajuda',
@@ -23,10 +26,12 @@ return [
     'hero.callsign'     => 'Indicativo',
     'hero.logbooks'     => 'Diários de bordo',
     'hero.total_qso' => 'Total QSO / contactos',
+    // Statistics labels
     'stat.total_qso'    => 'Total QSO',
     'stat.unique_calls' => 'Indicativos únicos',
     'stat.countries'    => 'Países',
     'stat.top_modes'    => 'Modos (top 3)',
+    // Action buttons and user interactions
     'action.open'         => 'Abrir',
     'action.new_logbook'  => 'Novo diário',
     'action.all_logbooks' => 'Todos os diários',
@@ -85,21 +90,26 @@ return [
     'qso.search'      => 'Pesquisar...',
     'qso.no_records'  => 'Sem registos.',
     'qso.visible_count' => 'A mostrar: %n% registos',
+    // Form labels and field descriptions
     'form.new_logbook_title'    => 'Novo diário de bordo',
     'form.new_logbook_year'     => 'Ano',
     'form.new_logbook_callsign' => 'Indicativo',
     'form.new_logbook_notes'    => 'Notas do diário',
+    // Field names and descriptions
     'field.required_note'       => '* campos obrigatórios',
+    // Table headers and display labels
     'table.logbook_year'     => 'Ano / Evento',
     'table.logbook_callsign' => 'Indicativo',
     'table.logbook_qso'      => 'QSO',
     'table.logbook_created'  => 'Criado',
     'table.logbook_actions'  => 'Ações',
+    // About JOTA-JOTI and event information
     'about.jota'      => 'Jamboree on the Air',
     'about.joti'      => 'Jamboree on the Internet',
     'about.jota_desc' => 'Encontro escutista por rádio amador. Escuteiros de todo o mundo comunicam em ondas curtas.',
     'about.joti_desc' => 'Encontro escutista via internet. Comunicação através de plataformas como Zoom, Teams, Discord, IRC, EchoLink e outras.',
     'about.date_info' => 'JOTA-JOTI realiza-se no 3.º fim de semana de outubro. O maior evento escutista do mundo com milhões de participantes.',
+    // Help and documentation
     'help.title'    => 'Ajuda',
     'help.toc'      => 'Índice da ajuda',
     'help.section1' => 'O que é o JOTA-JOTI?',
@@ -185,9 +195,11 @@ return [
     'setup.welcome_desc'        => 'Antes da primeira utilização, a aplicação precisa de ser configurada.',
     'setup.complete'            => 'Configuração concluída!',
     'setup.go_to_app'           => 'Ir para a aplicação',
+    // Theme and appearance settings
     'theme.light'  => 'Claro',
     'theme.dark'   => 'Escuro',
     'theme.toggle' => 'Alternar tema',
+    // Language display names
     'lang.en' => 'English',
     'lang.cs' => 'Čeština',
     'lang.sk' => 'Slovenština',
@@ -201,10 +213,13 @@ return [
     'lang.uk' => 'Українська',
     'lang.tr' => 'Türkçe',
     'lang.id' => 'Bahasa Indonesia',
+    // Footer content and links
     'footer.version'     => 'versão',
     'footer.world_scout' => 'Secretariado Mundial do Escutismo',
+    // JOTA/JOTI event names and titles
     'jota.title' => 'Jamboree on the Air',
     'joti.title' => 'Jamboree on the Internet',
+    // Language display names
     'lang.nl' => 'Holandês',
     'lang.sv' => 'Sueco',
     'lang.no' => 'Norueguês',
@@ -213,13 +228,15 @@ return [
     'lang.ko' => 'Coreano',
     'nav.official_site' => 'Site oficial',
     'login.logged_out'     => 'Você foi desconectado.',
-    // Placeholders
+    // Form input placeholders
+    // Form input placeholders
     'placeholder.callsign' => 'CT1ABC',
     'placeholder.name'     => 'João Silva',
     'placeholder.qth'      => 'Lisboa',
     'placeholder.locator'  => 'IM57NR',
     'placeholder.note'     => 'Bom sinal!',
 
+    // Help and documentation
     'help.section9' => 'Funções de utilizador',
     'help.jota.desc' => 'Encontro de escuteiros via rádio amador. Escuteiros de todo o mundo comunicam em bandas de ondas curtas usando modos como SSB, CW, FT8 e outros modos digitais.',
     'help.joti.desc' => 'Encontro de escuteiros via internet. O contacto é feito através de plataformas como Zoom, Teams, Discord, IRC, EchoLink, DMR e outras redes digitais.',
@@ -276,5 +293,6 @@ return [
     'help.roles.user.desc' => 'Pode adicionar e editar QSO no ano atual. Não tem acesso à configuração nem aos diários de anos anteriores.',
     'help.roles.admin.title' => 'Administrador',
     'help.roles.admin.desc' => 'Acesso total - criação e eliminação de diários, edição de QSO de anos anteriores e configuração da aplicação.',
+    // Language display names
     'lang.hu' => 'Húngaro',
 ];

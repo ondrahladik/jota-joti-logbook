@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 if (!defined('JOTAJOTI_LOADED')) die('Direct access not allowed.');
 return [
     // Navigation
@@ -9,14 +9,14 @@ return [
     'nav.logout'    => 'Uitloggen',
     'nav.config'    => 'Configuratie',
     'nav.official_site' => 'Officiële website',
-    // Roles
+    // Roles and access levels
     'role.guest'    => 'Bezoeker',
     'role.user'     => 'Gebruiker',
     'role.admin'    => 'Beheerder',
-    // App
+    // Application metadata
     'app.tagline'   => 'JOTA - JOTI',
     'app.description' => 'Webapplicatie voor het beheren van contacten tijdens de jaarlijkse JOTA-JOTI.',
-    // Pages
+    // Page titles and breadcrumbs
     'page.home'     => 'Home',
     'page.logbook'  => 'Logboek',
     'page.help'     => 'Help',
@@ -29,12 +29,12 @@ return [
     'hero.callsign'     => 'Roepnaam',
     'hero.logbooks'     => 'Logboeken',
     'hero.total_qso' => 'Totaal QSO / contacten',
-    // Stats
+    // Statistics labels
     'stat.total_qso'    => 'Totaal QSO',
     'stat.unique_calls' => 'Unieke roepnamen',
     'stat.countries'    => 'Landen',
     'stat.top_modes'    => 'Modi (top 3)',
-    // Actions
+    // Action buttons and user interactions
     'action.open'         => 'Openen',
     'action.new_logbook'  => 'Nieuw logboek',
     'action.all_logbooks' => 'Alle logboeken',
@@ -95,19 +95,19 @@ return [
     'qso.search'      => 'Zoeken...',
     'qso.no_records'  => 'Geen records.',
     'qso.visible_count' => 'Weergegeven: %n% records',
-    // Form
+    // Form labels and field descriptions
     'form.new_logbook_title'    => 'Nieuw logboek',
     'form.new_logbook_year'     => 'Jaar',
     'form.new_logbook_callsign' => 'Roepnaam',
     'form.new_logbook_notes'    => 'Logboeknotities',
     'field.required_note'       => '* verplichte velden',
-    // Table
+    // Table headers and display labels
     'table.logbook_year'     => 'Jaar / Evenement',
     'table.logbook_callsign' => 'Roepnaam',
     'table.logbook_qso'      => 'QSO',
     'table.logbook_created'  => 'Aangemaakt',
     'table.logbook_actions'  => 'Acties',
-    // About
+    // About JOTA-JOTI and event information
     'about.jota'      => 'Jamboree on the Air',
     'about.joti'      => 'Jamboree on the Internet',
     'about.jota_desc' => 'Scoutbijeenkomst via amateurradio. Scouts van over de hele wereld communiceren op kortegolf.',
@@ -203,11 +203,11 @@ return [
     'setup.welcome_desc'        => 'Voor het eerste gebruik moet de applicatie worden geconfigureerd. Deze wizard begeleidt u door de installatie.',
     'setup.complete'            => 'Installatie voltooid!',
     'setup.go_to_app'           => 'Naar applicatie',
-    // Theme
+    // Theme and appearance settings
     'theme.light'  => 'Licht',
     'theme.dark'   => 'Donker',
     'theme.toggle' => 'Thema wisselen',
-    // Languages (native names - always in their own language)
+    // Language display names
     'lang.en' => 'English',
     'lang.de' => 'Deutsch',
     'lang.nl' => 'Nederlands',
@@ -227,13 +227,13 @@ return [
     'lang.id' => 'Bahasa Indonesia',
     'lang.ja' => '日本語',
     'lang.ko' => '한국어',
-    // Footer
+    // Footer content and links
     'footer.version'     => 'versie',
     'footer.world_scout' => 'World Scout Bureau',
-    // JOTA/JOTI titles
+    // JOTA/JOTI event names and titles
     'jota.title' => 'Jamboree on the Air',
     'joti.title' => 'Jamboree on the Internet',
-    // Placeholders
+    // Form input placeholders
     'placeholder.callsign' => 'PA0ABC',
     'placeholder.name'     => 'Jan de Vries',
     'placeholder.qth'      => 'Amsterdam',

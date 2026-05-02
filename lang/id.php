@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 if (!defined('JOTAJOTI_LOADED')) die('Direct access not allowed.');
 return [
     'nav.home'      => 'Beranda',
@@ -7,11 +7,14 @@ return [
     'nav.login'     => 'Masuk',
     'nav.logout'    => 'Keluar',
     'nav.config'    => 'Konfigurasi',
+    // Roles and access levels
     'role.guest'    => 'Pengunjung',
     'role.user'     => 'Pengguna',
     'role.admin'    => 'Administrator',
+    // Application metadata
     'app.tagline'   => 'JOTA - JOTI',
     'app.description' => 'Aplikasi web untuk mengelola kontak selama JOTA-JOTI tahunan.',
+    // Page titles and breadcrumbs
     'page.home'     => 'Beranda',
     'page.logbook'  => 'Buku catatan',
     'page.help'     => 'Bantuan',
@@ -23,10 +26,12 @@ return [
     'hero.callsign'     => 'Tanda panggil',
     'hero.logbooks'     => 'Buku catatan',
     'hero.total_qso' => 'Total QSO / kontak',
+    // Statistics labels
     'stat.total_qso'    => 'Total QSO',
     'stat.unique_calls' => 'Tanda panggil unik',
     'stat.countries'    => 'Negara',
     'stat.top_modes'    => 'Mode (top 3)',
+    // Action buttons and user interactions
     'action.open'         => 'Buka',
     'action.new_logbook'  => 'Buku catatan baru',
     'action.all_logbooks' => 'Semua buku catatan',
@@ -85,21 +90,26 @@ return [
     'qso.search'      => 'Cari...',
     'qso.no_records'  => 'Tidak ada catatan.',
     'qso.visible_count' => 'Menampilkan: %n% catatan',
+    // Form labels and field descriptions
     'form.new_logbook_title'    => 'Buku catatan baru',
     'form.new_logbook_year'     => 'Tahun',
     'form.new_logbook_callsign' => 'Tanda panggil',
     'form.new_logbook_notes'    => 'Catatan buku',
+    // Field names and descriptions
     'field.required_note'       => '* bidang wajib',
+    // Table headers and display labels
     'table.logbook_year'     => 'Tahun / Acara',
     'table.logbook_callsign' => 'Tanda panggil',
     'table.logbook_qso'      => 'QSO',
     'table.logbook_created'  => 'Dibuat',
     'table.logbook_actions'  => 'Tindakan',
+    // About JOTA-JOTI and event information
     'about.jota'      => 'Jamboree on the Air',
     'about.joti'      => 'Jamboree on the Internet',
     'about.jota_desc' => 'Pertemuan pramuka melalui radio amatir. Pramuka dari seluruh dunia berkomunikasi pada gelombang pendek.',
     'about.joti_desc' => 'Pertemuan pramuka melalui internet. Komunikasi melalui platform seperti Zoom, Teams, Discord, IRC, EchoLink dan lainnya.',
     'about.date_info' => 'JOTA-JOTI berlangsung pada akhir pekan ke-3 Oktober setiap tahun. Acara pramuka terbesar di dunia dengan jutaan peserta.',
+    // Help and documentation
     'help.title'    => 'Bantuan',
     'help.toc'      => 'Daftar isi bantuan',
     'help.section1' => 'Apa itu JOTA-JOTI?',
@@ -185,9 +195,11 @@ return [
     'setup.welcome_desc'        => 'Sebelum pertama kali digunakan, aplikasi perlu dikonfigurasi.',
     'setup.complete'            => 'Pengaturan selesai!',
     'setup.go_to_app'           => 'Ke aplikasi',
+    // Theme and appearance settings
     'theme.light'  => 'Terang',
     'theme.dark'   => 'Gelap',
     'theme.toggle' => 'Ganti tema',
+    // Language display names
     'lang.en' => 'English',
     'lang.cs' => 'Čeština',
     'lang.sk' => 'Slovenština',
@@ -201,10 +213,13 @@ return [
     'lang.uk' => 'Українська',
     'lang.tr' => 'Türkçe',
     'lang.id' => 'Bahasa Indonesia',
+    // Footer content and links
     'footer.version'     => 'versi',
     'footer.world_scout' => 'Biro Pramuka Dunia',
+    // JOTA/JOTI event names and titles
     'jota.title' => 'Jamboree on the Air',
     'joti.title' => 'Jamboree on the Internet',
+    // Language display names
     'lang.nl' => 'Belanda',
     'lang.sv' => 'Swedia',
     'lang.no' => 'Norwegia',
@@ -213,13 +228,15 @@ return [
     'lang.ko' => 'Korea',
     'nav.official_site' => 'Situs resmi',
     'login.logged_out'     => 'Anda telah keluar.',
-    // Placeholders
+    // Form input placeholders
+    // Form input placeholders
     'placeholder.callsign' => 'YB0ABC',
     'placeholder.name'     => 'Budi Santoso',
     'placeholder.qth'      => 'Jakarta',
     'placeholder.locator'  => 'OI33AE',
     'placeholder.note'     => 'Sinyal bagus!',
 
+    // Help and documentation
     'help.section9' => 'Peran pengguna',
     'help.jota.desc' => 'Pertemuan pramuka melalui radio amatir. Pramuka dari seluruh dunia berkomunikasi di pita gelombang pendek menggunakan mode seperti SSB, CW, FT8, dan mode digital lainnya.',
     'help.joti.desc' => 'Pertemuan pramuka melalui internet. Komunikasi dilakukan melalui platform seperti Zoom, Teams, Discord, IRC, EchoLink, DMR, dan jaringan digital lainnya.',
@@ -276,5 +293,6 @@ return [
     'help.roles.user.desc' => 'Dapat menambah dan mengedit QSO di tahun berjalan. Tidak memiliki akses ke konfigurasi atau buku log dari tahun sebelumnya.',
     'help.roles.admin.title' => 'Administrator',
     'help.roles.admin.desc' => 'Akses penuh - membuat dan menghapus buku log, mengedit QSO dari tahun sebelumnya, dan konfigurasi aplikasi.',
+    // Language display names
     'lang.hu' => 'Hungaria',
 ];

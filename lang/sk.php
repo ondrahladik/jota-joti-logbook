@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 if (!defined('JOTAJOTI_LOADED')) die('Direct access not allowed.');
 return [
     'nav.home'      => 'Domov',
@@ -7,11 +7,14 @@ return [
     'nav.login'     => 'Prihlásenie',
     'nav.logout'    => 'Odhlásenie',
     'nav.config'    => 'Konfigurácia',
+    // Roles and access levels
     'role.guest'    => 'Návštevník',
     'role.user'     => 'Používateľ',
     'role.admin'    => 'Správca',
+    // Application metadata
     'app.tagline'   => 'JOTA - JOTI',
     'app.description' => 'Webová aplikácia na správu kontaktov počas každoročného JOTA-JOTI.',
+    // Page titles and breadcrumbs
     'page.home'     => 'Domov',
     'page.logbook'  => 'Zápisník',
     'page.help'     => 'Pomocník',
@@ -23,10 +26,12 @@ return [
     'hero.callsign'     => 'Volačka',
     'hero.logbooks'     => 'Zápisníky',
     'hero.total_qso' => 'Celkový počet QSO / kontaktov',
+    // Statistics labels
     'stat.total_qso'    => 'Celkový počet QSO',
     'stat.unique_calls' => 'Jedinečné volačky',
     'stat.countries'    => 'Krajiny',
     'stat.top_modes'    => 'Módy (top 3)',
+    // Action buttons and user interactions
     'action.open'         => 'Otvoriť',
     'action.new_logbook'  => 'Nový zápisník',
     'action.all_logbooks' => 'Všetky zápisníky',
@@ -85,21 +90,26 @@ return [
     'qso.search'      => 'Hľadať...',
     'qso.no_records'  => 'Žiadne záznamy.',
     'qso.visible_count' => 'Zobrazuje sa: %n% záznamov',
+    // Form labels and field descriptions
     'form.new_logbook_title'    => 'Nový zápisník',
     'form.new_logbook_year'     => 'Rok',
     'form.new_logbook_callsign' => 'Volačka',
     'form.new_logbook_notes'    => 'Poznámky zápisníka',
+    // Field names and descriptions
     'field.required_note'       => '* povinné polia',
+    // Table headers and display labels
     'table.logbook_year'     => 'Rok / Udalosť',
     'table.logbook_callsign' => 'Volačka',
     'table.logbook_qso'      => 'QSO',
     'table.logbook_created'  => 'Vytvorený',
     'table.logbook_actions'  => 'Akcie',
+    // About JOTA-JOTI and event information
     'about.jota'      => 'Jamboree on the Air',
     'about.joti'      => 'Jamboree on the Internet',
     'about.jota_desc' => 'Skautské stretnutie prostredníctvom amatérskej rádiokomunikácie. Skauti z celého sveta komunikujú na krátkych vlnách.',
     'about.joti_desc' => 'Skautské stretnutie prostredníctvom internetu. Komunikácia cez platformy ako Zoom, Teams, Discord, IRC, EchoLink a ďalšie.',
     'about.date_info' => 'JOTA-JOTI sa koná každoročne 3. víkend v októbri. Najväčšia skautská akcia na svete s miliónmi účastníkov.',
+    // Help and documentation
     'help.title'    => 'Pomocník',
     'help.toc'      => 'Obsah pomocníka',
     'help.section1' => 'Čo je JOTA-JOTI?',
@@ -185,9 +195,11 @@ return [
     'setup.welcome_desc'        => 'Pred prvým použitím je potrebné nakonfigurovať aplikáciu.',
     'setup.complete'            => 'Nastavenie dokončené!',
     'setup.go_to_app'           => 'Prejsť na aplikáciu',
+    // Theme and appearance settings
     'theme.light'  => 'Svetlá',
     'theme.dark'   => 'Tmavá',
     'theme.toggle' => 'Prepnúť tému',
+    // Language display names
     'lang.en' => 'English',
     'lang.cs' => 'Čeština',
     'lang.sk' => 'Slovenština',
@@ -201,10 +213,13 @@ return [
     'lang.uk' => 'Українська',
     'lang.tr' => 'Türkçe',
     'lang.id' => 'Bahasa Indonesia',
+    // Footer content and links
     'footer.version'     => 'verzia',
     'footer.world_scout' => 'Svetové skautské byro',
+    // JOTA/JOTI event names and titles
     'jota.title' => 'Jamboree on the Air',
     'joti.title' => 'Jamboree on the Internet',
+    // Language display names
     'lang.nl' => 'Holandčina',
     'lang.sv' => 'Švédčina',
     'lang.no' => 'Nórčina',
@@ -213,13 +228,15 @@ return [
     'lang.ko' => 'Kórejčina',
     'nav.official_site' => 'Oficiálny web',
     'login.logged_out'     => 'Boli ste odhlásený(-á).',
-    // Placeholders
+    // Form input placeholders
+    // Form input placeholders
     'placeholder.callsign' => 'OM3ABC',
     'placeholder.name'     => 'Ján Kováč',
     'placeholder.qth'      => 'Bratislava',
     'placeholder.locator'  => 'JN88SD',
     'placeholder.note'     => 'Dobré spojenie!',
 
+    // Help and documentation
     'help.section9' => 'Používateľské roly',
     'help.jota.desc' => 'Stretnutie skautov cez amatérske rádio. Skauti z celého sveta komunikujú na krátkovlnných pásmach pomocou módov ako SSB, CW, FT8 a ďalšie digitálne módy.',
     'help.joti.desc' => 'Stretnutie skautov cez internet. Kontakt prebieha cez platformy ako Zoom, Teams, Discord, IRC, EchoLink, DMR a ďalšie digitálne siete.',
@@ -276,5 +293,6 @@ return [
     'help.roles.user.desc' => 'Môže pridávať a upravovať QSO v aktuálnom roku. Nemá prístup ku konfigurácii ani k logbookom z minulých rokov.',
     'help.roles.admin.title' => 'Administrátor',
     'help.roles.admin.desc' => 'Plný prístup - zakladanie a mazanie logbookov, úprava QSO z minulých rokov i konfigurácia aplikácie.',
+    // Language display names
     'lang.hu' => 'Maďarčina',
 ];

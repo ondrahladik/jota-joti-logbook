@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 if (!defined('JOTAJOTI_LOADED')) die('Direct access not allowed.');
 return [
     // Navigation
@@ -9,14 +9,14 @@ return [
     'nav.logout'    => 'Logga ut',
     'nav.config'    => 'Konfiguration',
     'nav.official_site' => 'Officiell webbplats',
-    // Roles
+    // Roles and access levels
     'role.guest'    => 'Besökare',
     'role.user'     => 'Användare',
     'role.admin'    => 'Administratör',
-    // App
+    // Application metadata
     'app.tagline'   => 'JOTA - JOTI',
     'app.description' => 'Webbapplikation för hantering av kontakter under det årliga JOTA-JOTI.',
-    // Pages
+    // Page titles and breadcrumbs
     'page.home'     => 'Hem',
     'page.logbook'  => 'Loggbok',
     'page.help'     => 'Hjälp',
@@ -29,12 +29,12 @@ return [
     'hero.callsign'     => 'Anropssignal',
     'hero.logbooks'     => 'Loggböcker',
     'hero.total_qso' => 'Totalt QSO / kontakter',
-    // Stats
+    // Statistics labels
     'stat.total_qso'    => 'Totalt QSO',
     'stat.unique_calls' => 'Unika anrop',
     'stat.countries'    => 'Länder',
     'stat.top_modes'    => 'Lägen (topp 3)',
-    // Actions
+    // Action buttons and user interactions
     'action.open'         => 'Öppna',
     'action.new_logbook'  => 'Ny loggbok',
     'action.all_logbooks' => 'Alla loggböcker',
@@ -95,19 +95,19 @@ return [
     'qso.search'      => 'Sök...',
     'qso.no_records'  => 'Inga poster.',
     'qso.visible_count' => 'Visar: %n% poster',
-    // Form
+    // Form labels and field descriptions
     'form.new_logbook_title'    => 'Ny loggbok',
     'form.new_logbook_year'     => 'År',
     'form.new_logbook_callsign' => 'Anropssignal',
     'form.new_logbook_notes'    => 'Loggboksanteckningar',
     'field.required_note'       => '* obligatoriska fält',
-    // Table
+    // Table headers and display labels
     'table.logbook_year'     => 'År / Evenemang',
     'table.logbook_callsign' => 'Anropssignal',
     'table.logbook_qso'      => 'QSO',
     'table.logbook_created'  => 'Skapad',
     'table.logbook_actions'  => 'Åtgärder',
-    // About
+    // About JOTA-JOTI and event information
     'about.jota'      => 'Jamboree on the Air',
     'about.joti'      => 'Jamboree on the Internet',
     'about.jota_desc' => 'Scoutmöte via amatörradio. Scouter från hela världen kommunicerar på kortvåg.',
@@ -203,11 +203,11 @@ return [
     'setup.welcome_desc'        => 'Innan första användning måste applikationen konfigureras. Den här guiden leder dig genom installationen.',
     'setup.complete'            => 'Installation klar!',
     'setup.go_to_app'           => 'Gå till applikationen',
-    // Theme
+    // Theme and appearance settings
     'theme.light'  => 'Ljust',
     'theme.dark'   => 'Mörkt',
     'theme.toggle' => 'Växla tema',
-    // Languages (native names - always in their own language)
+    // Language display names
     'lang.en' => 'English',
     'lang.de' => 'Deutsch',
     'lang.nl' => 'Nederlands',
@@ -227,13 +227,13 @@ return [
     'lang.id' => 'Bahasa Indonesia',
     'lang.ja' => '日本語',
     'lang.ko' => '한국어',
-    // Footer
+    // Footer content and links
     'footer.version'     => 'version',
     'footer.world_scout' => 'World Scout Bureau',
-    // JOTA/JOTI titles
+    // JOTA/JOTI event names and titles
     'jota.title' => 'Jamboree on the Air',
     'joti.title' => 'Jamboree on the Internet',
-    // Placeholders
+    // Form input placeholders
     'placeholder.callsign' => 'SM5ABC',
     'placeholder.name'     => 'Erik Svensson',
     'placeholder.qth'      => 'Stockholm',

@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 if (!defined('JOTAJOTI_LOADED')) die('Direct access not allowed.');
 return [
     // Navigation
@@ -9,14 +9,14 @@ return [
     'nav.logout'    => 'ログアウト',
     'nav.config'    => '設定',
     'nav.official_site' => '公式ウェブサイト',
-    // Roles
+    // Roles and access levels
     'role.guest'    => 'ゲスト',
     'role.user'     => 'ユーザー',
     'role.admin'    => '管理者',
-    // App
+    // Application metadata
     'app.tagline'   => 'JOTA - JOTI',
     'app.description' => '年次JOTA-JOTIイベント中の連絡先管理用Webアプリケーション。',
-    // Pages
+    // Page titles and breadcrumbs
     'page.home'     => 'ホーム',
     'page.logbook'  => 'ログブック',
     'page.help'     => 'ヘルプ',
@@ -29,12 +29,12 @@ return [
     'hero.callsign'     => 'コールサイン',
     'hero.logbooks'     => 'ログブック',
     'hero.total_qso' => '総QSO / 交信数',
-    // Stats
+    // Statistics labels
     'stat.total_qso'    => '総QSO',
     'stat.unique_calls' => 'ユニーク交信',
     'stat.countries'    => '国',
     'stat.top_modes'    => 'モード（上位3）',
-    // Actions
+    // Action buttons and user interactions
     'action.open'         => '開く',
     'action.new_logbook'  => '新しいログブック',
     'action.all_logbooks' => 'すべてのログブック',
@@ -95,19 +95,19 @@ return [
     'qso.search'      => '検索...',
     'qso.no_records'  => 'レコードがありません。',
     'qso.visible_count' => '表示中：%n% 件',
-    // Form
+    // Form labels and field descriptions
     'form.new_logbook_title'    => '新しいログブック',
     'form.new_logbook_year'     => '年',
     'form.new_logbook_callsign' => 'コールサイン',
     'form.new_logbook_notes'    => 'ログブックメモ',
     'field.required_note'       => '* 必須フィールド',
-    // Table
+    // Table headers and display labels
     'table.logbook_year'     => '年 / イベント',
     'table.logbook_callsign' => 'コールサイン',
     'table.logbook_qso'      => 'QSO',
     'table.logbook_created'  => '作成済み',
     'table.logbook_actions'  => 'アクション',
-    // About
+    // About JOTA-JOTI and event information
     'about.jota'      => 'Jamboree on the Air',
     'about.joti'      => 'Jamboree on the Internet',
     'about.jota_desc' => 'アマチュア無線によるスカウトの集い。世界中のスカウトが短波で交信します。',
@@ -203,11 +203,11 @@ return [
     'setup.welcome_desc'        => '初回使用前に、アプリケーションを設定する必要があります。このウィザードがセットアップをご案内します。',
     'setup.complete'            => 'セットアップ完了！',
     'setup.go_to_app'           => 'アプリケーションへ',
-    // Theme
+    // Theme and appearance settings
     'theme.light'  => 'ライト',
     'theme.dark'   => 'ダーク',
     'theme.toggle' => 'テーマを切替',
-    // Languages (native names - always in their own language)
+    // Language display names
     'lang.en' => 'English',
     'lang.de' => 'Deutsch',
     'lang.nl' => 'Nederlands',
@@ -227,13 +227,13 @@ return [
     'lang.id' => 'Bahasa Indonesia',
     'lang.ja' => '日本語',
     'lang.ko' => '한국어',
-    // Footer
+    // Footer content and links
     'footer.version'     => 'バージョン',
     'footer.world_scout' => 'World Scout Bureau',
-    // JOTA/JOTI titles
+    // JOTA/JOTI event names and titles
     'jota.title' => 'Jamboree on the Air',
     'joti.title' => 'Jamboree on the Internet',
-    // Placeholders
+    // Form input placeholders
     'placeholder.callsign' => 'JA1ABC',
     'placeholder.name'     => '山田太郎',
     'placeholder.qth'      => '東京',

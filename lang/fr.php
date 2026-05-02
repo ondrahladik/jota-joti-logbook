@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 if (!defined('JOTAJOTI_LOADED')) die('Direct access not allowed.');
 return [
     'nav.home'      => 'Accueil',
@@ -7,11 +7,14 @@ return [
     'nav.login'     => 'Connexion',
     'nav.logout'    => 'Déconnexion',
     'nav.config'    => 'Configuration',
+    // Roles and access levels
     'role.guest'    => 'Visiteur',
     'role.user'     => 'Utilisateur',
     'role.admin'    => 'Administrateur',
+    // Application metadata
     'app.tagline'   => 'JOTA - JOTI',
     'app.description' => 'Application web pour gérer les contacts lors du JOTA-JOTI annuel.',
+    // Page titles and breadcrumbs
     'page.home'     => 'Accueil',
     'page.logbook'  => 'Carnet de bord',
     'page.help'     => 'Aide',
@@ -23,10 +26,12 @@ return [
     'hero.callsign'     => 'Indicatif',
     'hero.logbooks' => 'Carnets de bord',
     'hero.total_qso' => 'Total QSO / contacts',
+    // Statistics labels
     'stat.total_qso'    => 'Total QSO',
     'stat.unique_calls' => 'Indicatifs uniques',
     'stat.countries'    => 'Pays',
     'stat.top_modes'    => 'Modes (top 3)',
+    // Action buttons and user interactions
     'action.open'         => 'Ouvrir',
     'action.new_logbook'  => 'Nouveau carnet',
     'action.all_logbooks' => 'Tous les carnets',
@@ -85,21 +90,26 @@ return [
     'qso.search'      => 'Rechercher...',
     'qso.no_records'  => 'Aucun enregistrement.',
     'qso.visible_count' => 'Affichage : %n% enregistrements',
+    // Form labels and field descriptions
     'form.new_logbook_title'    => 'Nouveau carnet de bord',
     'form.new_logbook_year'     => 'Année',
     'form.new_logbook_callsign' => 'Indicatif',
     'form.new_logbook_notes'    => 'Notes du carnet',
+    // Field names and descriptions
     'field.required_note'       => '* champs obligatoires',
+    // Table headers and display labels
     'table.logbook_year'     => 'Année / Événement',
     'table.logbook_callsign' => 'Indicatif',
     'table.logbook_qso'      => 'QSO',
     'table.logbook_created'  => 'Créé',
     'table.logbook_actions'  => 'Actions',
+    // About JOTA-JOTI and event information
     'about.jota'      => 'Jamboree on the Air',
     'about.joti'      => 'Jamboree on the Internet',
     'about.jota_desc' => 'Rencontre scout par radio amateur. Les scouts du monde entier communiquent en ondes courtes.',
     'about.joti_desc' => 'Rencontre scout via internet. Communication via des plateformes telles que Zoom, Teams, Discord, IRC, EchoLink et autres.',
     'about.date_info' => 'JOTA-JOTI se déroule le 3e week-end d\'octobre. Le plus grand événement scout au monde avec des millions de participants.',
+    // Help and documentation
     'help.title'    => 'Aide',
     'help.toc'      => 'Sommaire de l\'aide',
     'help.section1' => 'Qu\'est-ce que JOTA-JOTI ?',
@@ -185,9 +195,11 @@ return [
     'setup.welcome_desc'        => 'Avant la première utilisation, l\'application doit être configurée.',
     'setup.complete'            => 'Configuration terminée !',
     'setup.go_to_app'           => 'Aller à l\'application',
+    // Theme and appearance settings
     'theme.light'  => 'Clair',
     'theme.dark'   => 'Sombre',
     'theme.toggle' => 'Basculer le thème',
+    // Language display names
     'lang.en' => 'English',
     'lang.cs' => 'Čeština',
     'lang.sk' => 'Slovenština',
@@ -201,10 +213,13 @@ return [
     'lang.uk' => 'Українська',
     'lang.tr' => 'Türkçe',
     'lang.id' => 'Bahasa Indonesia',
+    // Footer content and links
     'footer.version'     => 'version',
     'footer.world_scout' => 'Bureau mondial du scoutisme',
+    // JOTA/JOTI event names and titles
     'jota.title' => 'Jamboree on the Air',
     'joti.title' => 'Jamboree on the Internet',
+    // Language display names
     'lang.nl' => 'Néerlandais',
     'lang.sv' => 'Suédois',
     'lang.no' => 'Norvégien',
@@ -213,13 +228,15 @@ return [
     'lang.ko' => 'Coréen',
     'nav.official_site' => 'Site officiel',
     'login.logged_out'     => 'Vous avez été déconnecté.',
-    // Placeholders
+    // Form input placeholders
+    // Form input placeholders
     'placeholder.callsign' => 'F5ABC',
     'placeholder.name'     => 'Jean Dupont',
     'placeholder.qth'      => 'Paris',
     'placeholder.locator'  => 'JN03RF',
     'placeholder.note'     => 'Bon signal !',
 
+    // Help and documentation
     'help.section9' => 'Rôles utilisateurs',
     'help.jota.desc' => 'Rencontre scout par radio amateur. Les scouts du monde entier communiquent en ondes courtes avec des modes comme SSB, CW, FT8 et d\'autres modes numériques.',
     'help.joti.desc' => 'Rencontre scout via internet. Le contact se fait via Zoom, Teams, Discord, IRC, EchoLink, DMR et d\'autres réseaux numériques.',
@@ -276,5 +293,6 @@ return [
     'help.roles.user.desc' => 'Peut ajouter et modifier des QSO dans l\'année en cours. Pas d\'accès à la configuration ni aux carnets des années précédentes.',
     'help.roles.admin.title' => 'Administrateur',
     'help.roles.admin.desc' => 'Accès complet - création et suppression de carnets, modification de QSO des années précédentes et configuration de l\'application.',
+    // Language display names
     'lang.hu' => 'Hongrois',
 ];

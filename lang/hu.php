@@ -8,14 +8,14 @@ return [
     'nav.login'     => 'Bejelentkezés',
     'nav.logout'    => 'Kijelentkezés',
     'nav.config'    => 'Konfiguráció',
-    // Roles
+    // Roles and access levels
     'role.guest'    => 'Látogató',
     'role.user'     => 'Felhasználó',
     'role.admin'    => 'Adminisztrátor',
-    // App
+    // Application metadata
     'app.tagline'   => 'JOTA - JOTI',
     'app.description' => 'Webalkalmazás az éves JOTA-JOTI összeköttetések kezeléséhez.',
-    // Pages
+    // Page titles and breadcrumbs
     'page.home'     => 'Főoldal',
     'page.logbook'  => 'Naplókönyv',
     'page.help'     => 'Súgó',
@@ -28,12 +28,12 @@ return [
     'hero.callsign'     => 'Hívójel',
     'hero.logbooks'     => 'Naplókönyvek',
     'hero.total_qso' => 'Összes QSO / összeköttetés',
-    // Stats
+    // Statistics labels
     'stat.total_qso'    => 'Összes QSO',
     'stat.unique_calls' => 'Egyedi hívójelek',
     'stat.countries'    => 'Országok',
     'stat.top_modes'    => 'Módok (top 3)',
-    // Actions
+    // Action buttons and user interactions
     'action.open'         => 'Megnyitás',
     'action.new_logbook'  => 'Új naplókönyv',
     'action.all_logbooks' => 'Összes naplókönyv',
@@ -94,19 +94,19 @@ return [
     'qso.search'      => 'Keresés...',
     'qso.no_records'  => 'Nincs bejegyzés.',
     'qso.visible_count' => 'Megjelenítve: %n% bejegyzés',
-    // Form
+    // Form labels and field descriptions
     'form.new_logbook_title'    => 'Új naplókönyv',
     'form.new_logbook_year'     => 'Év',
     'form.new_logbook_callsign' => 'Hívójel',
     'form.new_logbook_notes'    => 'Naplókönyv megjegyzések',
     'field.required_note'       => '* kötelező mezők',
-    // Table
+    // Table headers and display labels
     'table.logbook_year'     => 'Év / Esemény',
     'table.logbook_callsign' => 'Hívójel',
     'table.logbook_qso'      => 'QSO',
     'table.logbook_created'  => 'Létrehozva',
     'table.logbook_actions'  => 'Műveletek',
-    // About
+    // About JOTA-JOTI and event information
     'about.jota'      => 'Jamboree on the Air',
     'about.joti'      => 'Jamboree on the Internet',
     'about.jota_desc' => 'Cserkész találkozó amatőr rádión keresztül. A világ minden tájáról érkező cserkészek rövid hullámú sávon kommunikálnak.',
@@ -258,11 +258,11 @@ return [
     'setup.welcome_desc'        => 'Az első használat előtt az alkalmazást be kell állítani. Ez a varázsló végigvezeti a beállítási folyamaton.',
     'setup.complete'            => 'Beállítás kész!',
     'setup.go_to_app'           => 'Ugrás az alkalmazáshoz',
-    // Theme
+    // Theme and appearance settings
     'theme.light'  => 'Világos',
     'theme.dark'   => 'Sötét',
     'theme.toggle' => 'Téma váltása',
-    // Languages
+    // Language display names
     'lang.en' => 'Angol',
     'lang.cs' => 'Cseh',
     'lang.sk' => 'Szlovák',
@@ -283,15 +283,15 @@ return [
     'lang.ja' => 'Japán',
     'lang.ko' => 'Koreai',
     'lang.hu' => 'Magyar',
-    // Footer
+    // Footer content and links
     'footer.version'     => 'verzió',
     'footer.world_scout' => 'Világ Cserkész Iroda',
-    // JOTA/JOTI titles
+    // JOTA/JOTI event names and titles
     'jota.title' => 'Jamboree on the Air',
     'joti.title' => 'Jamboree on the Internet',
     // Official site
     'nav.official_site' => 'Hivatalos weboldal',
-    // Placeholders
+    // Form input placeholders
     'placeholder.callsign' => 'HA1ABC',
     'placeholder.name'     => 'Kiss János',
     'placeholder.qth'      => 'Budapest',

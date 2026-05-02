@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 if (!defined('JOTAJOTI_LOADED')) die('Direct access not allowed.');
 return [
     // Navigation
@@ -9,14 +9,14 @@ return [
     'nav.logout'    => '로그아웃',
     'nav.config'    => '설정',
     'nav.official_site' => '공식 웹사이트',
-    // Roles
+    // Roles and access levels
     'role.guest'    => '방문자',
     'role.user'     => '사용자',
     'role.admin'    => '관리자',
-    // App
+    // Application metadata
     'app.tagline'   => 'JOTA - JOTI',
     'app.description' => '연례 JOTA-JOTI 기간 중 교신 관리를 위한 웹 애플리케이션.',
-    // Pages
+    // Page titles and breadcrumbs
     'page.home'     => '홈',
     'page.logbook'  => '로그북',
     'page.help'     => '도움말',
@@ -29,12 +29,12 @@ return [
     'hero.callsign'     => '콜사인',
     'hero.logbooks'     => '로그북',
     'hero.total_qso' => '총 QSO / 교신 수',
-    // Stats
+    // Statistics labels
     'stat.total_qso'    => '총 QSO',
     'stat.unique_calls' => '고유 콜',
     'stat.countries'    => '국가',
     'stat.top_modes'    => '모드 (상위 3)',
-    // Actions
+    // Action buttons and user interactions
     'action.open'         => '열기',
     'action.new_logbook'  => '새 로그북',
     'action.all_logbooks' => '모든 로그북',
@@ -95,19 +95,19 @@ return [
     'qso.search'      => '검색...',
     'qso.no_records'  => '레코드가 없습니다.',
     'qso.visible_count' => '표시 중: %n% 건',
-    // Form
+    // Form labels and field descriptions
     'form.new_logbook_title'    => '새 로그북',
     'form.new_logbook_year'     => '연도',
     'form.new_logbook_callsign' => '콜사인',
     'form.new_logbook_notes'    => '로그북 메모',
     'field.required_note'       => '* 필수 필드',
-    // Table
+    // Table headers and display labels
     'table.logbook_year'     => '연도 / 이벤트',
     'table.logbook_callsign' => '콜사인',
     'table.logbook_qso'      => 'QSO',
     'table.logbook_created'  => '생성됨',
     'table.logbook_actions'  => '작업',
-    // About
+    // About JOTA-JOTI and event information
     'about.jota'      => 'Jamboree on the Air',
     'about.joti'      => 'Jamboree on the Internet',
     'about.jota_desc' => '아마추어 무선을 통한 스카우트 모임. 전 세계 스카우트가 단파로 교신합니다.',
@@ -203,11 +203,11 @@ return [
     'setup.welcome_desc'        => '첫 사용 전에 애플리케이션을 설정해야 합니다. 이 마법사가 설정을 안내합니다.',
     'setup.complete'            => '설정 완료!',
     'setup.go_to_app'           => '애플리케이션으로 이동',
-    // Theme
+    // Theme and appearance settings
     'theme.light'  => '밝게',
     'theme.dark'   => '어둡게',
     'theme.toggle' => '테마 전환',
-    // Languages (native names - always in their own language)
+    // Language display names
     'lang.en' => 'English',
     'lang.de' => 'Deutsch',
     'lang.nl' => 'Nederlands',
@@ -227,13 +227,13 @@ return [
     'lang.id' => 'Bahasa Indonesia',
     'lang.ja' => '日本語',
     'lang.ko' => '한국어',
-    // Footer
+    // Footer content and links
     'footer.version'     => '버전',
     'footer.world_scout' => 'World Scout Bureau',
-    // JOTA/JOTI titles
+    // JOTA/JOTI event names and titles
     'jota.title' => 'Jamboree on the Air',
     'joti.title' => 'Jamboree on the Internet',
-    // Placeholders
+    // Form input placeholders
     'placeholder.callsign' => 'HL1ABC',
     'placeholder.name'     => '김민준',
     'placeholder.qth'      => '서울',

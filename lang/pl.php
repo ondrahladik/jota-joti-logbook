@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 if (!defined('JOTAJOTI_LOADED')) die('Direct access not allowed.');
 return [
     'nav.home'      => 'Strona główna',
@@ -7,11 +7,14 @@ return [
     'nav.login'     => 'Logowanie',
     'nav.logout'    => 'Wylogowanie',
     'nav.config'    => 'Konfiguracja',
+    // Roles and access levels
     'role.guest'    => 'Gość',
     'role.user'     => 'Użytkownik',
     'role.admin'    => 'Administrator',
+    // Application metadata
     'app.tagline'   => 'JOTA - JOTI',
     'app.description' => 'Aplikacja internetowa do zarządzania łącznościami podczas corocznego JOTA-JOTI.',
+    // Page titles and breadcrumbs
     'page.home'     => 'Strona główna',
     'page.logbook'  => 'Dziennik',
     'page.help'     => 'Pomoc',
@@ -23,10 +26,12 @@ return [
     'hero.callsign'     => 'Znak wywoławczy',
     'hero.logbooks'     => 'Dzienniki',
     'hero.total_qso' => 'Łącznie QSO / łączności',
+    // Statistics labels
     'stat.total_qso'    => 'Łącznie QSO',
     'stat.unique_calls' => 'Unikalne znaki',
     'stat.countries'    => 'Kraje',
     'stat.top_modes'    => 'Tryby (top 3)',
+    // Action buttons and user interactions
     'action.open'         => 'Otwórz',
     'action.new_logbook'  => 'Nowy dziennik',
     'action.all_logbooks' => 'Wszystkie dzienniki',
@@ -85,21 +90,26 @@ return [
     'qso.search'      => 'Szukaj...',
     'qso.no_records'  => 'Brak wpisów.',
     'qso.visible_count' => 'Wyświetlanie: %n% wpisów',
+    // Form labels and field descriptions
     'form.new_logbook_title'    => 'Nowy dziennik',
     'form.new_logbook_year'     => 'Rok',
     'form.new_logbook_callsign' => 'Znak wywoławczy',
     'form.new_logbook_notes'    => 'Uwagi do dziennika',
+    // Field names and descriptions
     'field.required_note'       => '* pola wymagane',
+    // Table headers and display labels
     'table.logbook_year'     => 'Rok / Zdarzenie',
     'table.logbook_callsign' => 'Znak wywoławczy',
     'table.logbook_qso'      => 'QSO',
     'table.logbook_created'  => 'Utworzony',
     'table.logbook_actions'  => 'Akcje',
+    // About JOTA-JOTI and event information
     'about.jota'      => 'Jamboree on the Air',
     'about.joti'      => 'Jamboree on the Internet',
     'about.jota_desc' => 'Spotkanie harcerskie przez radio amatorskie. Harcerze z całego świata komunikują się na falach krótkich.',
     'about.joti_desc' => 'Spotkanie harcerskie przez internet. Komunikacja za pomocą platform takich jak Zoom, Teams, Discord, IRC, EchoLink i innych.',
     'about.date_info' => 'JOTA-JOTI odbywa się w coroczny 3. weekend października. Największe harcerskie wydarzenie na świecie z milionami uczestników.',
+    // Help and documentation
     'help.title'    => 'Pomoc',
     'help.toc'      => 'Spis treści pomocy',
     'help.section1' => 'Co to jest JOTA-JOTI?',
@@ -185,9 +195,11 @@ return [
     'setup.welcome_desc'        => 'Przed pierwszym użyciem aplikacja musi zostać skonfigurowana.',
     'setup.complete'            => 'Konfiguracja zakończona!',
     'setup.go_to_app'           => 'Przejdź do aplikacji',
+    // Theme and appearance settings
     'theme.light'  => 'Jasny',
     'theme.dark'   => 'Ciemny',
     'theme.toggle' => 'Przełącz motyw',
+    // Language display names
     'lang.en' => 'English',
     'lang.cs' => 'Čeština',
     'lang.sk' => 'Slovenština',
@@ -201,10 +213,13 @@ return [
     'lang.uk' => 'Українська',
     'lang.tr' => 'Türkçe',
     'lang.id' => 'Bahasa Indonesia',
+    // Footer content and links
     'footer.version'     => 'wersja',
     'footer.world_scout' => 'Światowe Biuro Skautowe',
+    // JOTA/JOTI event names and titles
     'jota.title' => 'Jamboree on the Air',
     'joti.title' => 'Jamboree on the Internet',
+    // Language display names
     'lang.nl' => 'Niderlandzki',
     'lang.sv' => 'Szwedzki',
     'lang.no' => 'Norweski',
@@ -213,13 +228,15 @@ return [
     'lang.ko' => 'Koreański',
     'nav.official_site' => 'Oficjalna strona',
     'login.logged_out'     => 'Zostałeś wylogowany.',
-    // Placeholders
+    // Form input placeholders
+    // Form input placeholders
     'placeholder.callsign' => 'SP1ABC',
     'placeholder.name'     => 'Jan Kowalski',
     'placeholder.qth'      => 'Warszawa',
     'placeholder.locator'  => 'KO02LB',
     'placeholder.note'     => 'Dobry sygnał!',
 
+    // Help and documentation
     'help.section9' => 'Role użytkowników',
     'help.jota.desc' => 'Spotkanie harcerskie przez radio amatorskie. Harcerze z całego świata komunikują się na pasmach krótkofalowych używając trybów takich jak SSB, CW, FT8 i inne tryby cyfrowe.',
     'help.joti.desc' => 'Spotkanie harcerskie przez internet. Kontakt odbywa się przez platformy takie jak Zoom, Teams, Discord, IRC, EchoLink, DMR i inne sieci cyfrowe.',
@@ -276,5 +293,6 @@ return [
     'help.roles.user.desc' => 'Może dodawać i edytować QSO w bieżącym roku. Nie ma dostępu do konfiguracji ani dzienników z poprzednich lat.',
     'help.roles.admin.title' => 'Administrator',
     'help.roles.admin.desc' => 'Pełny dostęp - tworzenie i usuwanie dzienników, edycja QSO z poprzednich lat i konfiguracja aplikacji.',
+    // Language display names
     'lang.hu' => 'Węgierski',
 ];

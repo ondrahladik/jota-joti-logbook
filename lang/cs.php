@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 if (!defined('JOTAJOTI_LOADED')) die('Direct access not allowed.');
 return [
     // Navigation
@@ -8,14 +8,14 @@ return [
     'nav.login'     => 'Přihlásit se',
     'nav.logout'    => 'Odhlásit se',
     'nav.config'    => 'Konfigurace',
-    // Roles
+    // Roles and access levels
     'role.guest'    => 'Návštěvník',
     'role.user'     => 'Uživatel',
     'role.admin'    => 'Administrátor',
-    // App
+    // Application metadata
     'app.tagline'   => 'JOTA · JOTI',
     'app.description' => 'Webová aplikace pro správu spojení během každoročního JOTA-JOTI.',
-    // Pages
+    // Page titles and breadcrumbs
     'page.home'     => 'Úvod',
     'page.logbook'  => 'Logbook',
     'page.help'     => 'Nápověda',
@@ -28,12 +28,12 @@ return [
     'hero.callsign'     => 'Volací značka',
     'hero.logbooks'     => 'Logbooky',
     'hero.total_qso' => 'Celkem QSO / spojení',
-    // Stats
+    // Statistics labels
     'stat.total_qso'    => 'Celkem QSO',
     'stat.unique_calls' => 'Unikátní značky',
     'stat.countries'    => 'Země',
     'stat.top_modes'    => 'Módy (top 3)',
-    // Actions
+    // Action buttons and user interactions
     'action.open'         => 'Otevřít',
     'action.new_logbook'  => 'Nový logbook',
     'action.all_logbooks' => 'Všechny logbooky',
@@ -94,19 +94,19 @@ return [
     'qso.search'      => 'Hledat...',
     'qso.no_records'  => 'Žádné záznamy.',
     'qso.visible_count' => 'Zobrazeno: %n% záznamů',
-    // Form
+    // Form labels and field descriptions
     'form.new_logbook_title'    => 'Nový logbook',
     'form.new_logbook_year'     => 'Rok',
     'form.new_logbook_callsign' => 'Volací značka',
     'form.new_logbook_notes'    => 'Poznámky k logbooku',
     'field.required_note'       => '* povinná pole',
-    // Table
+    // Table headers and display labels
     'table.logbook_year'     => 'Rok / Akce',
     'table.logbook_callsign' => 'Volací značka',
     'table.logbook_qso'      => 'QSO',
     'table.logbook_created'  => 'Vytvořeno',
     'table.logbook_actions'  => 'Akce',
-    // About
+    // About JOTA-JOTI and event information
     'about.jota'      => 'Jamboree on the Air',
     'about.joti'      => 'Jamboree on the Internet',
     'about.jota_desc' => 'Skautské setkání prostřednictvím amatérského rádia. Skauti z celého světa komunikují na krátkých vlnách.',
@@ -201,11 +201,11 @@ return [
     'setup.welcome_desc'        => 'Před prvním použitím je potřeba nakonfigurovat aplikaci. Tento průvodce vás provede nastavením.',
     'setup.complete'            => 'Nastavení dokončeno!',
     'setup.go_to_app'           => 'Přejít do aplikace',
-    // Theme
+    // Theme and appearance settings
     'theme.light'  => 'Světlé',
     'theme.dark'   => 'Tmavé',
     'theme.toggle' => 'Přepnout téma',
-    // Languages
+    // Language display names
     'lang.en' => 'English',
     'lang.cs' => 'Čeština',
     'lang.sk' => 'Slovenština',
@@ -219,10 +219,10 @@ return [
     'lang.uk' => 'Українська',
     'lang.tr' => 'Türkçe',
     'lang.id' => 'Bahasa Indonesia',
-    // Footer
+    // Footer content and links
     'footer.version'     => 'verze',
     'footer.world_scout' => 'World Scout Bureau',
-    // JOTA/JOTI titles
+    // JOTA/JOTI event names and titles
     'jota.title' => 'Jamboree on the Air',
     'joti.title' => 'Jamboree on the Internet',
     'lang.nl' => 'Nizozemština',
@@ -233,7 +233,7 @@ return [
     'lang.ko' => 'Korejština',
     'nav.official_site' => 'Oficiální web',
     'login.logged_out'     => 'Byl(a) jste odhlášen(a).',
-    // Placeholders
+    // Form input placeholders
     'placeholder.callsign' => 'OK1ABC',
     'placeholder.name'     => 'Jan Novák',
     'placeholder.qth'      => 'Praha',

@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 if (!defined('JOTAJOTI_LOADED')) die('Direct access not allowed.');
 return [
     'nav.home'      => 'Головна',
@@ -7,11 +7,14 @@ return [
     'nav.login'     => 'Вхід',
     'nav.logout'    => 'Вихід',
     'nav.config'    => 'Налаштування',
+    // Roles and access levels
     'role.guest'    => 'Гість',
     'role.user'     => 'Користувач',
     'role.admin'    => 'Адміністратор',
+    // Application metadata
     'app.tagline'   => 'JOTA - JOTI',
     'app.description' => 'Веб-застосунок для управління зв\'язками під час щорічного JOTA-JOTI.',
+    // Page titles and breadcrumbs
     'page.home'     => 'Головна',
     'page.logbook'  => 'Журнал',
     'page.help'     => 'Допомога',
@@ -23,10 +26,12 @@ return [
     'hero.callsign'     => 'Позивний',
     'hero.logbooks'     => 'Журнали',
     'hero.total_qso' => 'Всього QSO / зв\'язків',
+    // Statistics labels
     'stat.total_qso'    => 'Всього QSO',
     'stat.unique_calls' => 'Унікальні позивні',
     'stat.countries'    => 'Країни',
     'stat.top_modes'    => 'Види зв\'язку (топ 3)',
+    // Action buttons and user interactions
     'action.open'         => 'Відкрити',
     'action.new_logbook'  => 'Новий журнал',
     'action.all_logbooks' => 'Всі журнали',
@@ -85,21 +90,26 @@ return [
     'qso.search'      => 'Пошук...',
     'qso.no_records'  => 'Записів немає.',
     'qso.visible_count' => 'Показано: %n% записів',
+    // Form labels and field descriptions
     'form.new_logbook_title'    => 'Новий журнал',
     'form.new_logbook_year'     => 'Рік',
     'form.new_logbook_callsign' => 'Позивний',
     'form.new_logbook_notes'    => 'Нотатки журналу',
+    // Field names and descriptions
     'field.required_note'       => '* обов\'язкові поля',
+    // Table headers and display labels
     'table.logbook_year'     => 'Рік / Подія',
     'table.logbook_callsign' => 'Позивний',
     'table.logbook_qso'      => 'QSO',
     'table.logbook_created'  => 'Створено',
     'table.logbook_actions'  => 'Дії',
+    // About JOTA-JOTI and event information
     'about.jota'      => 'Jamboree on the Air',
     'about.joti'      => 'Jamboree on the Internet',
     'about.jota_desc' => 'Зустріч скаутів через любительське радіо. Скаути з усього світу спілкуються на коротких хвилях.',
     'about.joti_desc' => 'Зустріч скаутів через інтернет. Спілкування через такі платформи, як Zoom, Teams, Discord, IRC, EchoLink та інші.',
     'about.date_info' => 'JOTA-JOTI проводиться щорічно в 3-й вихідний жовтня. Найбільший скаутський захід у світі з мільйонами учасників.',
+    // Help and documentation
     'help.title'    => 'Допомога',
     'help.toc'      => 'Зміст довідки',
     'help.section1' => 'Що таке JOTA-JOTI?',
@@ -185,9 +195,11 @@ return [
     'setup.welcome_desc'        => 'Перед першим використанням необхідно налаштувати застосунок.',
     'setup.complete'            => 'Встановлення завершено!',
     'setup.go_to_app'           => 'Перейти до застосунку',
+    // Theme and appearance settings
     'theme.light'  => 'Світла',
     'theme.dark'   => 'Темна',
     'theme.toggle' => 'Перемкнути тему',
+    // Language display names
     'lang.en' => 'English',
     'lang.cs' => 'Čeština',
     'lang.sk' => 'Slovenština',
@@ -201,10 +213,13 @@ return [
     'lang.uk' => 'Українська',
     'lang.tr' => 'Türkçe',
     'lang.id' => 'Bahasa Indonesia',
+    // Footer content and links
     'footer.version'     => 'версія',
     'footer.world_scout' => 'Всесвітнє бюро скаутів',
+    // JOTA/JOTI event names and titles
     'jota.title' => 'Jamboree on the Air',
     'joti.title' => 'Jamboree on the Internet',
+    // Language display names
     'lang.nl' => 'Нідерландська',
     'lang.sv' => 'Шведська',
     'lang.no' => 'Норвезька',
@@ -213,13 +228,15 @@ return [
     'lang.ko' => 'Корейська',
     'nav.official_site' => 'Офіційний сайт',
     'login.logged_out'     => 'Ви вийшли з системи.',
-    // Placeholders
+    // Form input placeholders
+    // Form input placeholders
     'placeholder.callsign' => 'UR1ABC',
     'placeholder.name'     => 'Іван Петренко',
     'placeholder.qth'      => 'Київ',
     'placeholder.locator'  => 'KN88AD',
     'placeholder.note'     => 'Гарний сигнал!',
 
+    // Help and documentation
     'help.section9' => 'Ролі користувачів',
     'help.jota.desc' => 'Зустріч скаутів через аматорське радіо. Скаути з усього світу спілкуються на короткохвильових діапазонах, використовуючи режими SSB, CW, FT8 та інші цифрові режими.',
     'help.joti.desc' => 'Зустріч скаутів через інтернет. Зв\'язок здійснюється через платформи Zoom, Teams, Discord, IRC, EchoLink, DMR та інші цифрові мережі.',
@@ -276,5 +293,6 @@ return [
     'help.roles.user.desc' => 'Може додавати та редагувати QSO у поточному році. Немає доступу до конфігурації або журналів попередніх років.',
     'help.roles.admin.title' => 'Адміністратор',
     'help.roles.admin.desc' => 'Повний доступ - створення та видалення журналів, редагування QSO попередніх років та конфігурація додатку.',
+    // Language display names
     'lang.hu' => 'Угорська',
 ];
