@@ -17,11 +17,11 @@ $allLangs = ['en','de','nl','sv','no','da','fr','es','pt','it','cs','sk','pl','h
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="apple-touch-icon" sizes="180x180" href="/assets/img/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="96x96" href="/assets/img/favicon-96x96.png">
-    <link rel="icon" type="image/svg+xml" href="/assets/img/favicon.svg" />
-    <link rel="shortcut icon" href="/assets/img/favicon.ico" />
-    <link rel="manifest" href="/assets/img/site.webmanifest">
+    <link rel="apple-touch-icon" sizes="180x180" href="/assets/img/fav/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="/assets/img/fav/favicon-96x96.png">
+    <link rel="icon" type="image/svg+xml" href="/assets/img/fav/favicon.svg" />
+    <link rel="shortcut icon" href="/assets/img/fav/favicon.ico" />
+    <link rel="manifest" href="/assets/img/fav/site.webmanifest">
     <title><?= h($title) ?></title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
