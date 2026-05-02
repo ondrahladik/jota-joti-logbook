@@ -28,7 +28,6 @@ return [
     'hero.total_qso' => 'Celkem QSO / spojení',
     // Stats
     'stat.logbooks'     => 'Logbooky',
-    'stat.qsos'         => 'Celkem QSO',
     'stat.year'         => 'Aktuální rok',
     'stat.callsign'     => 'Volací značka',
     'stat.total_qso'    => 'Celkem QSO',

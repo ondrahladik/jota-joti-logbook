@@ -29,7 +29,6 @@ return [
     'hero.total_qso' => 'Totalt QSO / kontakter',
     // Stats
     'stat.logbooks'     => 'Loggbøker',
-    'stat.qsos'         => 'Totalt QSO',
     'stat.year'         => 'Inneværende år',
     'stat.callsign'     => 'Kallesignal',
     'stat.total_qso'    => 'Totalt QSO',

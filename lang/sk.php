@@ -22,7 +22,6 @@ return [
     'hero.subtitle' => '',
     'hero.total_qso' => 'Celkový počet QSO / kontaktov',
     'stat.logbooks'     => 'Zápisníky',
-    'stat.qsos'         => 'Celkový počet QSO',
     'stat.year'         => 'Aktuálny rok',
     'stat.callsign'     => 'Volačka',
     'stat.total_qso'    => 'Celkový počet QSO',

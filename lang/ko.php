@@ -29,7 +29,6 @@ return [
     'hero.total_qso' => '총 QSO / 교신 수',
     // Stats
     'stat.logbooks'     => '로그북',
-    'stat.qsos'         => '총 QSO',
     'stat.year'         => '현재 연도',
     'stat.callsign'     => '콜사인',
     'stat.total_qso'    => '총 QSO',

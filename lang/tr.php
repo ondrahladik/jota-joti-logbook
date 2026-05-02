@@ -22,7 +22,6 @@ return [
     'hero.subtitle' => '',
     'hero.total_qso' => 'Toplam QSO / kişi',
     'stat.logbooks'     => 'Günlükler',
-    'stat.qsos'         => 'Toplam QSO',
     'stat.year'         => 'Geçerli yıl',
     'stat.callsign'     => 'Çağrı işareti',
     'stat.total_qso'    => 'Toplam QSO',

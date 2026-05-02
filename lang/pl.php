@@ -22,7 +22,6 @@ return [
     'hero.subtitle' => '',
     'hero.total_qso' => 'Łącznie QSO / łączności',
     'stat.logbooks'     => 'Dzienniki',
-    'stat.qsos'         => 'Łącznie QSO',
     'stat.year'         => 'Bieżący rok',
     'stat.callsign'     => 'Znak wywoławczy',
     'stat.total_qso'    => 'Łącznie QSO',

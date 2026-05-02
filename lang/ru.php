@@ -22,7 +22,6 @@ return [
     'hero.subtitle' => '',
     'hero.total_qso' => 'Всего QSO / связей',
     'stat.logbooks'     => 'Журналы',
-    'stat.qsos'         => 'Всего QSO',
     'stat.year'         => 'Текущий год',
     'stat.callsign'     => 'Позывной',
     'stat.total_qso'    => 'Всего QSO',

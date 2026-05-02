@@ -22,7 +22,6 @@ return [
     'hero.subtitle' => '',
     'hero.total_qso' => 'Totale QSO / contatti',
     'stat.logbooks'     => 'Giornali di bordo',
-    'stat.qsos'         => 'Totale QSO',
     'stat.year'         => 'Anno corrente',
     'stat.callsign'     => 'Nominativo',
     'stat.total_qso'    => 'Totale QSO',
