@@ -492,6 +492,15 @@ body {
     flex-shrink: 0;
 }
 
+.jj-footer a {
+    transition: color .2s, text-decoration .2s;
+}
+
+.jj-footer a:hover {
+    color: var(--jj-purple-light) !important;
+    text-decoration: underline !important;
+}
+
 .text-purple {
     color: var(--jj-purple-light) !important;
 }
@@ -621,6 +630,10 @@ body {
 [data-theme="light"] .jj-footer {
     background: #ebebf5;
     border-top-color: var(--jj-border);
+}
+
+[data-theme="light"] .jj-footer a:hover {
+    color: var(--jj-purple-dark) !important;
 }
 
 [data-theme="light"] .jj-hero {
