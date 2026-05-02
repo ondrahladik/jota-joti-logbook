@@ -25,7 +25,7 @@ return [
     'hero.subtitle' => '',
     'hero.callsign'     => 'Tanda panggil',
     'hero.logbooks'     => 'Buku catatan',
-    'hero.total_qso' => 'Total QSO / kontak',
+    'hero.total_qso' => 'Total QSO',
     // Statistics labels
     'stat.total_qso'    => 'Total QSO',
     'stat.unique_calls' => 'Tanda panggil unik',

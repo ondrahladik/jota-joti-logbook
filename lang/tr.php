@@ -25,7 +25,7 @@ return [
     'hero.subtitle' => '',
     'hero.callsign'     => 'Çağrı işareti',
     'hero.logbooks'     => 'Günlükler',
-    'hero.total_qso' => 'Toplam QSO / kişi',
+    'hero.total_qso' => 'Toplam QSO',
     // Statistics labels
     'stat.total_qso'    => 'Toplam QSO',
     'stat.unique_calls' => 'Benzersiz çağrılar',

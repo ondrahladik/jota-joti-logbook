@@ -28,7 +28,7 @@ return [
     'hero.subtitle' => '',
     'hero.callsign'     => '콜사인',
     'hero.logbooks'     => '로그북',
-    'hero.total_qso' => '총 QSO / 교신 수',
+    'hero.total_qso' => '총 QSO',
     // Statistics labels
     'stat.total_qso'    => '총 QSO',
     'stat.unique_calls' => '고유 콜',

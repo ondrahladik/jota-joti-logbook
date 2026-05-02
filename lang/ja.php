@@ -28,7 +28,7 @@ return [
     'hero.subtitle' => '',
     'hero.callsign'     => 'コールサイン',
     'hero.logbooks'     => 'ログブック',
-    'hero.total_qso' => '総QSO / 交信数',
+    'hero.total_qso' => '総QSO',
     // Statistics labels
     'stat.total_qso'    => '総QSO',
     'stat.unique_calls' => 'ユニーク交信',

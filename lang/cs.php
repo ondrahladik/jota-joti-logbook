@@ -27,7 +27,7 @@ return [
     'hero.subtitle' => '',
     'hero.callsign'     => 'Volací značka',
     'hero.logbooks'     => 'Logbooky',
-    'hero.total_qso' => 'Celkem QSO / spojení',
+    'hero.total_qso' => 'Celkem QSO',
     // Statistics labels
     'stat.total_qso'    => 'Celkem QSO',
     'stat.unique_calls' => 'Unikátní značky',

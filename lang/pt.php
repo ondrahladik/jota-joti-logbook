@@ -25,7 +25,7 @@ return [
     'hero.subtitle' => '',
     'hero.callsign'     => 'Indicativo',
     'hero.logbooks'     => 'Diários de bordo',
-    'hero.total_qso' => 'Total QSO / contactos',
+    'hero.total_qso' => 'Total QSO',
     // Statistics labels
     'stat.total_qso'    => 'Total QSO',
     'stat.unique_calls' => 'Indicativos únicos',

@@ -28,7 +28,7 @@ return [
     'hero.subtitle' => '',
     'hero.callsign'     => 'Kaldesignal',
     'hero.logbooks'     => 'Logbøger',
-    'hero.total_qso' => 'Totalt QSO / kontakter',
+    'hero.total_qso' => 'Totalt QSO',
     // Statistics labels
     'stat.total_qso'    => 'Totalt QSO',
     'stat.unique_calls' => 'Unikke kald',

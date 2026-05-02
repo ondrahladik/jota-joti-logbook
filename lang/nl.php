@@ -28,7 +28,7 @@ return [
     'hero.subtitle' => '',
     'hero.callsign'     => 'Roepnaam',
     'hero.logbooks'     => 'Logboeken',
-    'hero.total_qso' => 'Totaal QSO / contacten',
+    'hero.total_qso' => 'Totaal QSO',
     // Statistics labels
     'stat.total_qso'    => 'Totaal QSO',
     'stat.unique_calls' => 'Unieke roepnamen',

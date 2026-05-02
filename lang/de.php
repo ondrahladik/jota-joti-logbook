@@ -27,7 +27,7 @@ return [
     'hero.subtitle' => '',
     'hero.callsign'     => 'Rufzeichen',
     'hero.logbooks'     => 'Logbucher',
-    'hero.total_qso' => 'Gesamt QSO / Verbindungen',
+    'hero.total_qso' => 'Gesamt QSO',
     // Statistics labels
     'stat.total_qso'    => 'Gesamt QSO',
     'stat.unique_calls' => 'Eindeutige Rufzeichen',

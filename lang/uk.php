@@ -25,7 +25,7 @@ return [
     'hero.subtitle' => '',
     'hero.callsign'     => 'Позивний',
     'hero.logbooks'     => 'Журнали',
-    'hero.total_qso' => 'Всього QSO / зв\'язків',
+    'hero.total_qso' => 'Всього QSO',
     // Statistics labels
     'stat.total_qso'    => 'Всього QSO',
     'stat.unique_calls' => 'Унікальні позивні',
