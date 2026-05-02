@@ -29,7 +29,6 @@ return [
     'hero.logbooks'     => 'ログブック',
     'hero.total_qso' => '総QSO / 交信数',
     // Stats
-    'stat.callsign'     => 'コールサイン',
     'stat.total_qso'    => '総QSO',
     'stat.unique_calls' => 'ユニーク交信',
     'stat.countries'    => '国',

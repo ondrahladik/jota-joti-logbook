@@ -28,7 +28,6 @@ return [
     'hero.logbooks'     => 'Logbooky',
     'hero.total_qso' => 'Celkem QSO / spojení',
     // Stats
-    'stat.callsign'     => 'Volací značka',
     'stat.total_qso'    => 'Celkem QSO',
     'stat.unique_calls' => 'Unikátní značky',
     'stat.countries'    => 'Země',

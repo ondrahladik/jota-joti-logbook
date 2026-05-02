@@ -22,7 +22,6 @@ return [
     'hero.subtitle' => '',
     'hero.logbooks'     => 'Zápisníky',
     'hero.total_qso' => 'Celkový počet QSO / kontaktov',
-    'stat.callsign'     => 'Volačka',
     'stat.total_qso'    => 'Celkový počet QSO',
     'stat.unique_calls' => 'Jedinečné volačky',
     'stat.countries'    => 'Krajiny',

@@ -22,7 +22,6 @@ return [
     'hero.subtitle' => '',
     'hero.logbooks'     => 'Diários de bordo',
     'hero.total_qso' => 'Total QSO / contactos',
-    'stat.callsign'     => 'Indicativo',
     'stat.total_qso'    => 'Total QSO',
     'stat.unique_calls' => 'Indicativos únicos',
     'stat.countries'    => 'Países',
