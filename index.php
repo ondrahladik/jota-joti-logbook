@@ -21,54 +21,26 @@ require_once 'assets/inc/header.php';
 <!-- Hero -->
 <div class="jj-hero">
     <div class="row align-items-center gy-3">
-        <div class="col-md-8">
-            <div class="d-flex align-items-center gap-3 mb-3">
-                <div>
-                    <h1 class="mb-0"><?= h(__('hero.title')) ?></h1>
-                    <p class="mb-0 mt-1">
-                        <strong class="text-gold"><?= h(APP_CALLSIGN) ?></strong>
-                    </p>
-                </div>
+        <div class="col-12 col-md-4">
+            <div class="jj-stat-card" style="background:rgba(0,0,0,.3);">
+                <div class="jj-stat-icon"><i class="fa-solid fa-tower-broadcast"></i></div>
+                <div class="jj-stat-number"><?= h(APP_CALLSIGN) ?></div>
+                <div class="jj-stat-label"><?= h(__('hero.callsign')) ?></div>
             </div>
         </div>
-        <div class="col-md-4">
+        <div class="col-6 col-md-4">
             <div class="jj-stat-card" style="background:rgba(0,0,0,.3);">
-                <div class="jj-stat-icon"><i class="fa-solid fa-satellite-dish"></i></div>
+                <div class="jj-stat-icon"><i class="fa-solid fa-book-open"></i></div>
+                <div class="jj-stat-number"><?= count($logbooks) ?></div>
+                <div class="jj-stat-label"><?= h(__('hero.logbooks')) ?></div>
+            </div>
+        </div>
+        <div class="col-6 col-md-4">
+            <div class="jj-stat-card" style="background:rgba(0,0,0,.3);">
+                <div class="jj-stat-icon"><i class="fa-solid fa-solid fa-radio"></i></div>
                 <div class="jj-stat-number"><?= $total_qsos ?></div>
                 <div class="jj-stat-label"><?= h(__('hero.total_qso')) ?></div>
             </div>
-        </div>
-    </div>
-</div>
-
-<!-- Quick stat row -->
-<div class="row g-3 mb-4">
-    <div class="col-6 col-md-3">
-        <div class="jj-stat-card">
-            <div class="jj-stat-icon"><i class="fa-solid fa-book-open"></i></div>
-            <div class="jj-stat-number"><?= count($logbooks) ?></div>
-            <div class="jj-stat-label"><?= h(__('stat.logbooks')) ?></div>
-        </div>
-    </div>
-    <div class="col-6 col-md-3">
-        <div class="jj-stat-card">
-            <div class="jj-stat-icon"><i class="fa-solid fa-radio"></i></div>
-            <div class="jj-stat-number"><?= $total_qsos ?></div>
-            <div class="jj-stat-label"><?= h(__('stat.qsos')) ?></div>
-        </div>
-    </div>
-    <div class="col-6 col-md-3">
-        <div class="jj-stat-card">
-            <div class="jj-stat-icon"><i class="fa-solid fa-calendar-days"></i></div>
-            <div class="jj-stat-number"><?= $cur_year ?></div>
-            <div class="jj-stat-label"><?= h(__('stat.year')) ?></div>
-        </div>
-    </div>
-    <div class="col-6 col-md-3">
-        <div class="jj-stat-card">
-            <div class="jj-stat-icon"><i class="fa-solid fa-tower-broadcast"></i></div>
-            <div class="jj-stat-number" style="font-size:1.5rem"><?= h(APP_CALLSIGN) ?></div>
-            <div class="jj-stat-label"><?= h(__('stat.callsign')) ?></div>
         </div>
     </div>
 </div>
