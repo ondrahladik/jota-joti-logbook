@@ -25,10 +25,10 @@ return [
     // Hero
     'hero.title'    => 'JOTA-JOTI Logbook',
     'hero.subtitle' => '',
+    'hero.callsign'     => 'Callsign',
     'hero.logbooks'     => 'Logbooks',
     'hero.total_qso' => 'Total QSO / contacts',
     // Stats
-    'stat.callsign'     => 'Callsign',
     'stat.total_qso'    => 'Total QSO',
     'stat.unique_calls' => 'Unique calls',
     'stat.countries'    => 'Countries',

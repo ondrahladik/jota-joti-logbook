@@ -26,10 +26,10 @@ return [
     // Hero
     'hero.title'    => 'JOTA-JOTI Logbog',
     'hero.subtitle' => '',
+    'hero.callsign'     => 'Kaldesignal',
     'hero.logbooks'     => 'Logbøger',
     'hero.total_qso' => 'Totalt QSO / kontakter',
     // Stats
-    'stat.callsign'     => 'Kaldesignal',
     'stat.total_qso'    => 'Totalt QSO',
     'stat.unique_calls' => 'Unikke kald',
     'stat.countries'    => 'Lande',
