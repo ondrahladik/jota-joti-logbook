@@ -28,7 +28,6 @@ return [
     'hero.total_qso' => 'Összes QSO / összeköttetés',
     // Stats
     'stat.logbooks'     => 'Naplókönyvek',
-    'stat.year'         => 'Aktuális év',
     'stat.callsign'     => 'Hívójel',
     'stat.total_qso'    => 'Összes QSO',
     'stat.unique_calls' => 'Egyedi hívójelek',

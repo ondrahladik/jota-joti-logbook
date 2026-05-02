@@ -28,7 +28,6 @@ return [
     'hero.total_qso' => 'Total QSO / contacts',
     // Stats
     'stat.logbooks'     => 'Logbooks',
-    'stat.year'         => 'Current year',
     'stat.callsign'     => 'Callsign',
     'stat.total_qso'    => 'Total QSO',
     'stat.unique_calls' => 'Unique calls',

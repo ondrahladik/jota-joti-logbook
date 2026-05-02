@@ -28,7 +28,6 @@ return [
     'hero.total_qso' => 'Gesamt QSO / Verbindungen',
     // Stats
     'stat.logbooks'     => 'Logbucher',
-    'stat.year'         => 'Aktuelles Jahr',
     'stat.callsign'     => 'Rufzeichen',
     'stat.total_qso'    => 'Gesamt QSO',
     'stat.unique_calls' => 'Eindeutige Rufzeichen',

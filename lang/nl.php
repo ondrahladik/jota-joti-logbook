@@ -29,7 +29,6 @@ return [
     'hero.total_qso' => 'Totaal QSO / contacten',
     // Stats
     'stat.logbooks'     => 'Logboeken',
-    'stat.year'         => 'Huidig jaar',
     'stat.callsign'     => 'Roepnaam',
     'stat.total_qso'    => 'Totaal QSO',
     'stat.unique_calls' => 'Unieke roepnamen',

@@ -29,7 +29,6 @@ return [
     'hero.total_qso' => '総QSO / 交信数',
     // Stats
     'stat.logbooks'     => 'ログブック',
-    'stat.year'         => '現在の年',
     'stat.callsign'     => 'コールサイン',
     'stat.total_qso'    => '総QSO',
     'stat.unique_calls' => 'ユニーク交信',
